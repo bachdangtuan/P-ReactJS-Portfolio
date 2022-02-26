@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Carousel from './Carousel';
+import Banner from './Banner';
 import Introduce from './Introduce';
 import Navbar from './Navbar';
 
@@ -9,12 +9,14 @@ class Homepage extends Component {
         return (
             <div>
                 {/* Navbar */}
-                <Navbar/>
+                <Navbar />
                 {/* Carousel */}
-                <div><Carousel/></div>
+                <Banner/>
                 <div className="container py-5">
                     <div className='py-5'>
                         {/* Introduce */}
+
+
                         <Introduce></Introduce>
 
                     </div>

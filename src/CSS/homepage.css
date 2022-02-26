@@ -1,11 +1,11 @@
 *{
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
 }
 
 .homepage {
     text-align: center;
   }
-.background{
-  background-image: url(../img/pic2.png);
-}
 
