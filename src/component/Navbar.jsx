@@ -5,14 +5,14 @@ import '../CSS/nav-bar.css';
 
 export default function Navbar() {
 
-    // Add Class 
-    function addClasst() {
-        let addClass = document.querySelectorAll('.nav-menu ul li')
-        for (const input of addClass) {
-            { input.className = 'nav-item pr-4' ; }
-        }
-    }
-    addClasst();
+    // Add Class => xuat hien sau boi vi khi load web no phai chay cai function nay moi them vao web dc
+    // function addClasst() {
+    //     let addClass = document.querySelectorAll('.nav-menu ul li')
+    //     for (const input of addClass) {
+    //         { input.className = 'pr-4' ; }
+    //     }
+    // }
+    // addClasst();
 
     // Scroll man hinh
     const [curentNav, scrollNav] = useState("130px");
@@ -49,16 +49,16 @@ export default function Navbar() {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li>
+                        <li className='nav-item pr-4'>
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li>
+                        <li className='nav-item pr-4'>
                             <a className="nav-link" href="#">Education</a>
                         </li>
-                        <li>
+                        <li className='nav-item pr-4'>
                             <a className="nav-link" href="#">My Projects</a>
                         </li>
-                        <li>
+                        <li className='nav-item pr-4'>
                             <a className="nav-link" href="#">Contract</a>
                         </li>
                     </ul>
