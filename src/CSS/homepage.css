@@ -4,8 +4,10 @@
   outline: none;
   padding: 0;
 }
-
-.homepage {
-    text-align: center;
-  }
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+  color: #1f2471;
+}
+.text-primary{
+  color: #896eff!important;
+}

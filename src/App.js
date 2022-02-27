@@ -6,8 +6,7 @@ import './CSS/homepage.css';
 function App() {
   return (
     <div className="App">
-      {/*NAV BAR */}
-        <div className='homepage background'>
+        <div>
           <Homepage> </Homepage>
 
         </div>

@@ -16,14 +16,17 @@ class Banner extends Component {
 
                         </div>
                         <div className='row align-items-center'>
-                            <div className='col-md-6'>
-
+                            <div className='col-md-6 banner-content'>
+                                <h2 className='text-primary' >My Name</h2>
+                                <h1>BACH DANG
+                                <span className='text-primary'> TUAN</span>
+                                </h1>
 
                             </div>
                             <div className='col-md-6'>
                                 <div className='move-box'>
-                                <img src={require('../img/pic1.png')} />
-                                <img src={require('../img/pic6.png')} />
+                                    <img src={require('../img/pic1.png')} />
+                                    <img src={require('../img/pic6.png')} />
                                 </div>
 
                             </div>
