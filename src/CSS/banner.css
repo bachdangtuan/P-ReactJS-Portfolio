@@ -7,14 +7,34 @@
     left: 100px;
     bottom: 50px;
 }
-.banner-inner{
-    padding-top: 150px;
-}
 .img2{
     position: absolute;
     right: 0;
     top: 120px;
 }
+/* Banner CSS */
+.banner-inner{
+    padding-top: 150px;
+}
+
+.banner-one{
+    background-position: 0 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    position: relative;
+    background-image: url(../img/pic2.png);
+}
+
+.banner-content{
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}       
+
+/* Moving */
+
 .move-box{
     position: relative;
 }
@@ -28,12 +48,6 @@
     width: 100%;
     height: 100%;
 }
-.banner-content{
-    letter-spacing: 2px;
-    font-size: 18px;
-    font-weight: bolder;
-    margin-bottom: 12px;
-}       
 
 .move2{
     animation: moveing2 5s infinite;
@@ -64,7 +78,7 @@
       transform: rotate(-1deg) translate(-2px,-2px);
     }
     50% {
-      transform: rotate(1deg) translate(2px,2px);   
+      transform: rotate(5deg) translate(5px,2px)
     }
     100% {
       transform: rotate(-1deg) translate(-2px,-2px);

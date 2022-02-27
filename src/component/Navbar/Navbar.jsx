@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import '../CSS/nav-bar.css';
+import '../../CSS/nav-bar.css'
 
 
 
@@ -23,7 +23,7 @@ export default function Navbar() {
     let scrollFunction = function () {
         window.scrollY > 10 ? scrollNavColor("white") : scrollNavColor("transparent")
         window.scrollY > 10 ? scrollNav("80px") : scrollNav("130px")
-        window.scrollY > 10 ? scrollBoxshadowNav("rgb(0 0 0 / 50%) 0px 0px 50px 0px") : scrollBoxshadowNav("none")
+        window.scrollY > 10 ? scrollBoxshadowNav("rgb(0 0 0 / 10%) 0px 0px 50px 0px") : scrollBoxshadowNav("none")
     };
     useEffect(() => {
         window.addEventListener("scroll", scrollFunction);
@@ -60,6 +60,9 @@ export default function Navbar() {
                         </li>
                         <li className='nav-item pr-4'>
                             <a className="nav-link" href="#">Contract</a>
+                        </li>
+                        <li className='nav-item pr-4'>
+                            <a className="nav-link" href="#">Download CV</a>
                         </li>
                     </ul>
                 </div>

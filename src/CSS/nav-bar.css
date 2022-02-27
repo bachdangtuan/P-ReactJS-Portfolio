@@ -2,11 +2,9 @@
     font-weight: bolder;
     color: #896efe;
 }
-.banner-one{
-    background-position: 0 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 750px;
-    position: relative;
-    background-image: url(../img/pic2.png);
-}
+/* Hover */
+
+/* .nav-menu ul li :hover{
+    color: aqua;
+
+} */

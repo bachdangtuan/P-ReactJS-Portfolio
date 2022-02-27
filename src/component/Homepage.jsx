@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Banner from './Banner';
-import Introduce from './Introduce';
-import Navbar from './Navbar';
+import Banner from './Banner/Banner';
+import Footer from './Footer/Footer';
+import Introduce from './Introduction/Introduce';
+import Navbar from './Navbar/Navbar';
 
 
 class Homepage extends Component {
@@ -10,16 +11,17 @@ class Homepage extends Component {
             <div>
                 {/* Navbar */}
                 <Navbar />
-                {/* Carousel */}
+                {/* Banner */}
                 <Banner/>
                 <div className="container py-5">
-                    <div className='py-5'>
-                        {/* Introduce */}
-
-
-                        <Introduce></Introduce>
-
-                    </div>
+                <div className='py-5'>
+                {/* Introduce */}
+                <Introduce></Introduce>
+                </div>
+                </div>
+                {/* Footer */}
+                <div>
+                <Footer></Footer>
                 </div>
             </div>
 
