@@ -25,8 +25,8 @@ class Banner extends Component {
                             </div>
                             <div className='col-md-6'>
                                 <div className='move-box'>
-                                    <img src={require('../img/pic1.png')} />
-                                    <img src={require('../img/pic6.png')} />
+                                    <img src={require('../img/pic1.png')} className='move2' />
+                                    <img src={require('../img/pic6.png')} className='move1'/>
                                 </div>
 
                             </div>

@@ -34,3 +34,39 @@
     font-weight: bolder;
     margin-bottom: 12px;
 }       
+
+.move2{
+    animation: moveing2 5s infinite;
+    top: 0;
+    right: 0;
+    left: 20px;
+}
+.move1{
+    animation: moveing1 5s infinite;
+    top: 0;
+    right: 0;
+    left: 20px;
+}
+
+@keyframes moveing2 {
+    0% {
+        transform: rotate(1deg) translate(2px,2px);
+    }
+    50% {
+      transform: rotate(-1deg) translate(-2px,-2px)
+    }
+    100% {
+      transform: rotate(1deg) translate(2px,2px);
+     } 
+}
+@keyframes moveing1 {
+    0% {
+      transform: rotate(-1deg) translate(-2px,-2px);
+    }
+    50% {
+      transform: rotate(1deg) translate(2px,2px);   
+    }
+    100% {
+      transform: rotate(-1deg) translate(-2px,-2px);
+     } 
+}
