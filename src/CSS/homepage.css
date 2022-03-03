@@ -1,6 +1,7 @@
 *{
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  font-size: large;
   outline: none;
   padding: 0;
 }
@@ -10,4 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .text-primary{
   color: #896eff!important;
+}
+button:focus{
+  outline: none;
 }

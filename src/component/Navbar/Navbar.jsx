@@ -49,19 +49,19 @@ export default function Navbar() {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li className='nav-item pr-4'>
+                        <li className='nav-item pr-3'>
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li className='nav-item pr-4'>
+                        <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">Education</a>
                         </li>
-                        <li className='nav-item pr-4'>
+                        <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">My Projects</a>
                         </li>
-                        <li className='nav-item pr-4'>
+                        <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">Contract</a>
                         </li>
-                        <li className='nav-item pr-4'>
+                        <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">Download CV</a>
                         </li>
                     </ul>

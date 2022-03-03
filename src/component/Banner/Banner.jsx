@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import '../../CSS/banner.css';
 import DownloadCV from './DownloadCV';
 
+
 class Banner extends Component {
     render() {
         return (
             <div className='banner-one'>
                 <div className="container">
+
                     <div className='banner-inner'>
                         <div className='img1'>
                             <img src={require('../../img/pic3.png')} />
@@ -22,7 +24,8 @@ class Banner extends Component {
                                 <h1>BACH DANG
                                 <span className='text-primary'> TUAN</span>
                                 </h1>
-                                <p>Life is a series of challenges, I don't believe I can't, As for the way, I still walk</p>
+                                <p>Life is a series of challenges.
+                                 <br/> I don't believe I can't<br/> As for the way, I still walk</p>
                                 <DownloadCV></DownloadCV>
                             </div>
                             <div className='col-md-6'>
