@@ -11,8 +11,8 @@ export default class  DownloadCV extends Component {
 
         <Button variant="contained" 
           sx={{
-            fontWeight: 'bolder',
-            fontSize:'larger',
+            fontWeight: '600',
+            fontSize:'medium',
             background: 'linear-gradient(to right bottom, #896eff, #3d90ff  )',
           }}>Download CV</Button>
           
