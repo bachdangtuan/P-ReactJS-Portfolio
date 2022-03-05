@@ -66,23 +66,23 @@
 
 @keyframes moveing2 {
     0% {
-        transform: rotate(1deg) translate(2px,2px);
+        transform: rotate(2deg) translate(2px,2px);
     }
     50% {
-      transform: rotate(-1deg) translate(-2px,-2px)
+      transform: rotate(-2deg) translate(-2px,-2px)
     }
     100% {
-      transform: rotate(1deg) translate(2px,2px);
+      transform: rotate(2deg) translate(2px,2px);
      } 
 }
 @keyframes moveing1 {
     0% {
-      transform: rotate(-1deg) translate(-2px,-2px);
+      transform: rotate(-2deg);
     }
     50% {
-      transform: rotate(5deg) translate(5px,2px)
+      transform: rotate(2deg) 
     }
     100% {
-      transform: rotate(-1deg) translate(-2px,-2px);
-     } 
+      transform: rotate(-2deg) 
+}
 }
