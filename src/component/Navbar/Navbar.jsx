@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import '../../CSS/nav-bar.css'
+import DownloadCV from '../Banner/DownloadCV';
 
 
 
@@ -29,15 +30,15 @@ export default function Navbar() {
         window.addEventListener("scroll", scrollFunction);
         return () => {
             window.removeEventListener("scroll", scrollFunction);
-        };  
+        };
     }, []);
 
 
 
     // RETURN
-  
+
     return (
-        
+
         <nav className='navbar nav-menu navbar-expand-lg fixed-top ' style={{
             backgroundColor: currentNavColor,
             height: curentNav,
@@ -61,9 +62,7 @@ export default function Navbar() {
                         <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">Contract</a>
                         </li>
-                        <li className='nav-item pr-3'>
-                            <a className="nav-link" href="#">Download CV</a>
-                        </li>
+                        <DownloadCV></DownloadCV>
                     </ul>
                 </div>
             </div>
