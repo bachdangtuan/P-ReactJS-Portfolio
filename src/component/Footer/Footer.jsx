@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="container text-center">
-                    <span>💚 💙 ❤️ Creater by Bach Dang Tuan ❤️ 💙 💚</span>
+                    <span>💚Creater by Bach Dang Tuan💚</span>
                 </div>
 
             </div>

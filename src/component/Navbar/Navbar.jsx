@@ -48,6 +48,10 @@ export default function Navbar() {
             <div className="container">
                 <a className="navbar-brand" href="#">Dang Tuan</a>
 
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className="fas fa-bars"/>
+                </button>
+
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li className='nav-item pr-3'>
@@ -62,7 +66,6 @@ export default function Navbar() {
                         <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">Contract</a>
                         </li>
-                        <DownloadCV></DownloadCV>
                     </ul>
                 </div>
             </div>

@@ -2,6 +2,12 @@
     background: url(../img/pic3.png) no-repeat;
     background-position: left;
 }
+img{
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
 .img1{
     position: absolute;
     left: 100px;
