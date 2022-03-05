@@ -55,14 +55,11 @@ class Banner extends Component {
                             <div className='col-md-6'>
                                 <div className='move-box'>
                                     <div>
-                                    <ZoomIndiv>
-                                        <img src={require('../../img/pic1.png')} className='move2' />
-                                    </ZoomIndiv>   
-                                        </div>
+                                        <ZoomIndiv>
+                                            <img src={require('../../img/pic1.png')} className='move2' />
+                                        </ZoomIndiv>
+                                    </div>
                                     <img src={require('../../img/pic6.png')} className='move1' />
-
-
-
                                 </div>
 
                             </div>
