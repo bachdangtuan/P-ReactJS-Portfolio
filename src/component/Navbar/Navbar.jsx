@@ -24,7 +24,7 @@ export default function Navbar() {
     let scrollFunction = function () {
         window.scrollY > 10 ? scrollNavColor("white") : scrollNavColor("transparent")
         window.scrollY > 10 ? scrollNav("80px") : scrollNav("130px")
-        window.scrollY > 10 ? scrollBoxshadowNav("rgb(0 0 0 / 10%) 0px 0px 50px 0px") : scrollBoxshadowNav("none")
+        window.scrollY > 10 ? scrollBoxshadowNav("rgb(137 110 254 / 10%) 0px 0px 50px 0px") : scrollBoxshadowNav("none")
     };
     useEffect(() => {
         window.addEventListener("scroll", scrollFunction);
