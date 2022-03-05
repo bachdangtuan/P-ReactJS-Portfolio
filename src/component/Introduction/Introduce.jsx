@@ -9,7 +9,6 @@ class Introduce extends Component {
 
         );
     }
-💜💜💜💜
 }
 
 export default Introduce;
