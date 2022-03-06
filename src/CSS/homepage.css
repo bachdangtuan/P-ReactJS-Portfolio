@@ -95,5 +95,9 @@ button:focus{
        }
        .banner-content h1{
         font-size: 30px;
-     }
+       }
+       .navbar-brand img{
+         height: 45px !important;
+         padding-left: 20px;
+       }
   }

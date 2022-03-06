@@ -1,3 +1,4 @@
+import { height } from '@mui/system';
 import React, { useState, useEffect } from 'react'
 import '../../CSS/nav-bar.css'
 import DownloadCV from '../Banner/DownloadCV';
@@ -46,7 +47,10 @@ export default function Navbar() {
             transition: "all 1s",
         }}>
             <div className="container">
-                <a className="navbar-brand" href="#">Dang Tuan</a>
+                <a className="navbar-brand" href="#">
+                <img src={require('../../img/logo2.png')} style={
+                    {height: '65px'}} />
+                    </a>
 
                 <button className="navbar-toggler collapsed navicon justify-content-end " type="button"
                 data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
