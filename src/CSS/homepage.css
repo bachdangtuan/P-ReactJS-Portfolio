@@ -18,3 +18,82 @@ h1, h2, h3, h4, h5, h6 {
 button:focus{
   outline: none;
 }
+
+
+/* RESPONSIVE WEBSITE */
+
+
+@media (min-width: 992px) {
+  .logo-header{
+      display: none;
+   }
+  .navbar-collapse ul li a i  {
+      display: none;
+   }
+}
+  
+  @media (max-width: 992px) {
+      .navbar-collapse {
+          position: fixed;
+          top: 0;
+          left: 0;
+          padding: 50px 20px;
+          width: 280px;
+          height: 100%;
+          background-color: #3e336c;
+      }
+  
+      .navbar-collapse.collapsing {
+          left: -75%;
+          transition: height 0.1ms ease;
+      }
+  
+      .navbar-collapse.show {
+          left: 0;
+          transition: left 0.3s ease-in-out;
+      }
+      .navbar-collapse ul li a  {
+          color: aliceblue;
+      }
+      .navbar-collapse ul li::after {
+          content: "";
+          display: block;
+          width: 100%;
+          background-color: rgb(255 255 255 / 17%);
+          height: 2px;
+      }
+  
+      .navbar-toggler.collapsed ~ .navbar-collapse {
+          transition: left 1s ease-in-out;
+      }
+      .navbar-collapse ul li a i {
+          top: 0px;
+          left: auto;
+          background-color: white;
+          color: #6c4de3;
+          height: 30px;
+          line-height: 30px;
+          right: 0;
+          text-align: center;
+          width: 30px;
+          z-index: 3;
+          float: right;
+          font-size: 20px;
+          margin: auto;
+      }
+      .move-box{
+        width: 85%;
+        margin: auto;
+        padding-top: 50px;
+       }
+       .banner-content {
+         margin: auto;
+         text-align: center;
+       }
+       .banner-content h2{
+          font-size: 20px;
+       }
+       .banner-content h1{
+        font-size: 30px;
+     }
+  }
