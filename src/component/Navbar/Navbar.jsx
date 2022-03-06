@@ -48,13 +48,14 @@ export default function Navbar() {
             <div className="container">
                 <a className="navbar-brand" href="#">Dang Tuan</a>
 
-                <button className="navbar-toggler collapsed navicon justify-content-end " type="button">
+                <button className="navbar-toggler collapsed navicon justify-content-end " type="button"
+                data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
-
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse" id="navbarCollapse">
+                <a className="navbar-brand logo-header" href="#">Dang Tuan</a>
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li className='nav-item pr-3'>
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
