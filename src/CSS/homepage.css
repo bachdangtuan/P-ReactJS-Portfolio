@@ -64,7 +64,7 @@ button:focus{
       }
   
       .navbar-toggler.collapsed ~ .navbar-collapse {
-          transition: left 1s ease-in-out;
+          transition: left 0s ease-in-out;
       }
       .navbar-collapse ul li a i {
           top: 0px;

@@ -48,37 +48,44 @@ export default function Navbar() {
         }}>
             <div className="container">
                 <a className="navbar-brand" href="#">
-                <img src={require('../../img/logo2.png')} style={
-                    {height: '65px'}} />
-                    </a>
+                    <img src={require('../../img/logo2.png')} style={
+                        { height: '65px' }} />
+                </a>
 
                 <button className="navbar-toggler collapsed navicon justify-content-end " type="button"
-                data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className=''></span>
+                    <span className=''></span>
+                    <span className=''></span>
+                  
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
-                <a className="navbar-brand logo-header" href="#">Dang Tuan</a>
+                    <a className="navbar-brand logo-header" href="#">
+                        <img src={require('../../img/logo3.png')} style={
+                            { height: '65px', 
+                            transform: 'translate(-10px, -15px)'
+                            }} />
+                    </a>
+
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li className='nav-item pr-3'>
                             <a className="nav-link active" aria-current="page" href="#">Home
-                            <i class="fa fa-chevron-right"></i>
+                                <i class="fa fa-chevron-right"></i>
                             </a>
                         </li>
                         <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">Education
-                            <i class="fa fa-chevron-right"></i>
+                                <i class="fa fa-chevron-right"></i>
                             </a>
                         </li>
                         <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">My Projects
-                            <i class="fa fa-chevron-right"></i>
+                                <i class="fa fa-chevron-right"></i>
                             </a>
                         </li>
                         <li className='nav-item pr-3'>
                             <a className="nav-link" href="#">Contract
-                            <i class="fa fa-chevron-right"></i>
+                                <i class="fa fa-chevron-right"></i>
                             </a>
                         </li>
                     </ul>
