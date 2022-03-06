@@ -9,14 +9,16 @@ export default class  DownloadCV extends Component {
     return (
       <div>
 
-        <Button variant="contained" 
+        <Button variant="contained"
+          href='https://github.com/bachdangtuan' target="_blank"
           sx={{
             borderRadius:'10px',
             maxHeight:'50px',
             fontWeight: '600',
             fontSize:'medium',
             background: 'linear-gradient(to right bottom, #896eff, #19293e  )',
-          }}>Follow me on GitHub <SvgGithub></SvgGithub>
+          }}>Follow me on GitHub
+          <SvgGithub></SvgGithub>
          </Button>
           
      

@@ -5,6 +5,9 @@
   outline: none;
   padding: 0;
 }
+a:hover{
+  color: white;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: bolder;
   color: #1f2471;
