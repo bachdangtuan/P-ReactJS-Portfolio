@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <div className="container text-center">
+                <div className="container text-center banner-content mb-0">
                     <span>💚Creater by Bach Dang Tuan💚</span>
                 </div>
 

@@ -11,7 +11,7 @@ export default class  DownloadCV extends Component {
 
         <Button variant="contained" 
           sx={{
-            borderRadius:'20px',
+            borderRadius:'10px',
             maxHeight:'50px',
             fontWeight: '600',
             fontSize:'medium',
