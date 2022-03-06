@@ -58,16 +58,24 @@ export default function Navbar() {
                 <a className="navbar-brand logo-header" href="#">Dang Tuan</a>
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li className='nav-item pr-3'>
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active" aria-current="page" href="#">Home
+                            <i class="fa fa-chevron-right"></i>
+                            </a>
                         </li>
                         <li className='nav-item pr-3'>
-                            <a className="nav-link" href="#">Education</a>
+                            <a className="nav-link" href="#">Education
+                            <i class="fa fa-chevron-right"></i>
+                            </a>
                         </li>
                         <li className='nav-item pr-3'>
-                            <a className="nav-link" href="#">My Projects</a>
+                            <a className="nav-link" href="#">My Projects
+                            <i class="fa fa-chevron-right"></i>
+                            </a>
                         </li>
                         <li className='nav-item pr-3'>
-                            <a className="nav-link" href="#">Contract</a>
+                            <a className="nav-link" href="#">Contract
+                            <i class="fa fa-chevron-right"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
