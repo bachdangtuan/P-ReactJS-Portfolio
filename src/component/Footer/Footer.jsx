@@ -6,7 +6,14 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="container text-center banner-content mb-0">
-                    <span>💚Creater by Bach Dang Tuan💚</span>
+                    <span style={
+                        { fontSize: '15px',
+                        fontWeight: 400,
+                        letterSpacing:'normal'
+                     }}
+                    
+                    
+                    >💚Creater by Bach Dang Tuan💚</span>
                 </div>
 
             </div>
