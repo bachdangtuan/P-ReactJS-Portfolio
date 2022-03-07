@@ -7,7 +7,7 @@ import styled, { keyframes } from 'styled-components';
 const sIDAnimation = keyframes`${slideInDown}`
 
 const SIDdiv = styled.div`
-    animation: 1s ${sIDAnimation};
+    animation: 0.5s ${sIDAnimation};
 `;
 
 export default function Navbar() {
