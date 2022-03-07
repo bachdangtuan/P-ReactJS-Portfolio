@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Button from '@mui/material/Button';
 import SvgGithub from './SvgGithub';
-
+import FadeIn from 'react-fade-in';
 
 export default class  DownloadCV extends Component {
   render() {

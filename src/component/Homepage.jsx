@@ -4,7 +4,6 @@ import Footer from './Footer/Footer';
 import Introduce from './Introduction/Introduce';
 import Navbar from './Navbar/Navbar';
 
-
 class Homepage extends Component {
     render() {
         return (
