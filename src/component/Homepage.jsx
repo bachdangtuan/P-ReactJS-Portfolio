@@ -7,21 +7,27 @@ import Navbar from './Navbar/Navbar';
 class Homepage extends Component {
     render() {
         return (
-            <div>
+            <div name='Hompage'>
                 {/* Navbar */}
-                <Navbar />
+                <section name='Navbar'>
+                    <Navbar />
+                </section>
                 {/* Banner */}
-                <Banner/>
-                <div className="container py-5">
-                <div className='py-5'>
-                {/* Introduce */}
-                <Introduce></Introduce>
-                </div>
-                </div>
+                <section name='Banner'>
+                    <Banner />
+                </section>  
+                <section name='Introduction'>
+                    <div className="container py-5">
+                        <div className='py-5'>
+                            {/* Introduce */}
+                            <Introduce></Introduce>
+                        </div>
+                    </div>
+                </section>
                 {/* Footer */}
-                <div>
-                <Footer></Footer>
-                </div>
+                <section name='Footer'>
+                    <Footer></Footer>
+                </section>
             </div>
 
 

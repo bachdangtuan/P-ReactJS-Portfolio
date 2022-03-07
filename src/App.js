@@ -4,14 +4,7 @@ import './CSS/homepage.css';
 
 function App() {
   return (
-    <div className="App">
-        <div>
           <Homepage> </Homepage>
-
-        </div>
-
-
-    </div>
   );
 }
 

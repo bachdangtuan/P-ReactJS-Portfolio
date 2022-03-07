@@ -1,14 +1,10 @@
 import { height } from '@mui/system';
 import React, { useState, useEffect } from 'react'
 import '../../CSS/nav-bar.css'
-import DownloadCV from '../Banner/DownloadCV';
-import { slideInDown } from 'react-animations';
-import styled, { keyframes } from 'styled-components';
-const sIDAnimation = keyframes`${slideInDown}`
+import Fade from 'react-reveal/Fade'; //Lib react-reveal
 
-const SIDdiv = styled.div`
-    animation: 0.5s ${sIDAnimation};
-`;
+//Lib Animate React JS (add styled)
+
 
 export default function Navbar() {
 
@@ -51,15 +47,12 @@ export default function Navbar() {
             transition: "all 1s",
         }}>
             <div className="container m-auto">
-                <SIDdiv>
+                 <Fade top>
+        
                     <a className="navbar-brand" href="#">
                         <img src={require('../../img/logo2.png')} style={
                             { height: '65px' }} />
                     </a>
-
-                 </SIDdiv>
-                 <SIDdiv>
-                     
                     <button className="navbar-toggler collapsed navicon justify-content-end " type="button"
                         data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span className=''></span>
@@ -99,7 +92,8 @@ export default function Navbar() {
                             </li>
                         </ul>
                     </div>
-                 </SIDdiv>
+                </Fade>
+          
             </div>
         </nav>
     )
