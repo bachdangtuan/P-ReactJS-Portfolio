@@ -6,6 +6,11 @@ import styled, { keyframes } from 'styled-components';
 import { fadeInLeft } from 'react-animations';
 import { zoomIn } from 'react-animations';
 import { zoomOut } from 'react-animations';
+import LightSpeed from 'react-reveal/LightSpeed';
+import Fade from 'react-reveal/Fade';
+import Roll from 'react-reveal/Roll';
+
+
 
 const filAnimation = keyframes`${fadeInLeft}`;
 const zIAnimation = keyframes`${zoomIn}`;
@@ -16,7 +21,7 @@ const Fildiv = styled.div`
 `;
 
 const ZoomIndiv = styled.div`
-    animation:  5s ${zIAnimation};
+    animation:  1.8s ${zIAnimation};
 `;
 
 const ZoomOutdiv = styled.div`
@@ -54,14 +59,25 @@ class Banner extends Component {
                             </div>
                             <div className='col-md-6'>
                                 <div className='move-box'>
-                                    <div>
-                                        <ZoomIndiv>
-                                            <img src={require('../../img/pic1.png')} className='move2' />
-                                        </ZoomIndiv>
-                                    </div>
-                                    <img src={require('../../img/pic6.png')} className='move1' />
-                                </div>
+                                    <ZoomIndiv>
+                                        <div>
+                                            <img src={require('../../img/item5.png')} />
+                                        </div>
+                                    </ZoomIndiv>
+                                    <LightSpeed left cascade delay={1500}>
 
+                                        <img src={require('../../img/item1.png')} />
+                                    </LightSpeed>
+
+                                    <Fade delay={2500}>
+                                    <img src={require('../../img/item2.png')} className='move1' />
+                                    </Fade>
+
+                                    <Roll right delay={2600}>
+                                    <img src={require('../../img/item3.png')} className='move2'  />
+                                    </Roll>
+                                    <img src={require('../../img/item4.png')} className='move2' />
+                                </div>
                             </div>
 
                         </div>

@@ -10,6 +10,7 @@ export default class Frontend extends Component {
                 <div className="col-md-6">
                     <h2>Frontend
                         <span className='text-primary'> Development</span>
+                        
                     </h2>
                 </div>
             </div>
