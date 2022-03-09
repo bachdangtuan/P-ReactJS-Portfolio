@@ -18,12 +18,12 @@ export default class Backend extends Component {
         return (
             <div className="row align-items-center">
                 <div className="col-md-6">
-                    <ScrollAnimation animateIn="slideInLeft" delay={1000} >
+                    <ScrollAnimation animateIn="slideInLeft">
                         {this.renderBE()}
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-6">
-                    <ScrollAnimation animateIn="slideInRight" delay={1200}>
+                    <ScrollAnimation animateIn="slideInRight">
                     <img src="https://picsum.photos/id/1/1000/1200" alt="" />
                         </ScrollAnimation>
 

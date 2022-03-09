@@ -31,12 +31,12 @@ export default class Frontend extends Component {
         return (
             <div className="row align-items-center">
                 <div className="col-md-6">
-                <ScrollAnimation animateIn="slideInRight" delay={1200}>
+                <ScrollAnimation animateIn="slideInRight">
                 <img src="https://picsum.photos/id/1/1000/800" alt="" />
                 </ScrollAnimation>
                 </div>
                 <div className="col-md-6">
-                    <ScrollAnimation animateIn="fadeInUp" delay={1000}>
+                    <ScrollAnimation animateIn="fadeInUp">
                         {this.renderSP()}
                     </ScrollAnimation>
                 </div>
