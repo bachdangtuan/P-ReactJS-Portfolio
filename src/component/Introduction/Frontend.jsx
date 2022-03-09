@@ -28,7 +28,7 @@ export default class Frontend extends Component {
         return (
             <div className="row align-items-center">
                 <div className="col-md-6">
-                <ScrollAnimation animateIn="slideInRight">
+                <ScrollAnimation animateIn="fadeInUp">
                 <img src="https://picsum.photos/id/1/1000/800" alt="" />
                 </ScrollAnimation>
                 </div>
