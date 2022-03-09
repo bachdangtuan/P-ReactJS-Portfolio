@@ -110,7 +110,7 @@ class Introduce extends Component {
       <TabPanel value={1}>
       <Backend detailsBE ={this.state.dataTitle} ></Backend>   
         </TabPanel>
-      <TabPanel value={2}></TabPanel>
+      <TabPanel value={2}>Updating</TabPanel>
     </TabsUnstyled>
 
     </div>

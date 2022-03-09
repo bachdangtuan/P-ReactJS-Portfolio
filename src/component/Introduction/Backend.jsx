@@ -8,9 +8,9 @@ export default class Backend extends Component {
         return detailsBE.map((sp, index) => {
             return <div>
 
-                <h5 className='mt-4'>{sp.be1}</h5>
-                <h5 className='mt-4'>{sp.be2}</h5>
-                <h5 className='mt-4'>{sp.be3}</h5>
+                <h5 className='mt-4'>{sp.mt1}</h5>
+                <h5 className='mt-4'>{sp.mt2}</h5>
+                <h5 className='mt-4'>{sp.mt3}</h5>
             </div>
         })
     }
