@@ -24,7 +24,6 @@ const purple = {
 };
 
 const Tab = styled(TabUnstyled)`
-  font-family: IBM Plex Sans, sans-serif;
   color: white;
   cursor: pointer;
   font-size: 18px;
