@@ -69,13 +69,13 @@ class Banner extends Component {
                                         <img src={require('../../img/item1.png')} />
                                     </LightSpeed>
 
-                                    <Fade delay={2500}>
-                                    <img src={require('../../img/item2.png')} className='move1' />
-                                    </Fade>
-
-                                    <Roll right delay={2600}>
-                                    <img src={require('../../img/item3.png')} className='move2'  />
+                                    <Roll delay={2500}>
+                                    <img src={require('../../img/item2.png')} />
                                     </Roll>
+
+                                    <Fade top delay={2600}>
+                                    <img src={require('../../img/item3.png')} />
+                                    </Fade>
                                     <img src={require('../../img/item4.png')} className='move2' />
                                 </div>
                             </div>
