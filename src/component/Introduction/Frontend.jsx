@@ -12,13 +12,10 @@ export default class Frontend extends Component {
         return detailsFE.map((sp, index) => {
             return (
                 <div className='text-primary'>
-                    <h5 className='mt-4'>{sp.fe1}</h5>
-        
-                    <h5 className='mt-4'>{sp.fe2}</h5>
-    
-                    <h5 className='mt-4'>{sp.fe3}</h5>
-      
-                    <h5 className='mt-4'>{sp.fe4}</h5>
+                    <h6 className='mt-4'>{sp.fe1}</h6>
+                    <h6 className='mt-4'>{sp.fe2}</h6>
+                    <h6 className='mt-4'>{sp.fe3}</h6>
+                    <h6 className='mt-4'>{sp.fe4}</h6>
                 </div>
 
 

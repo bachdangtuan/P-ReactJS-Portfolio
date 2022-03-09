@@ -101,8 +101,8 @@ class Introduce extends Component {
     <TabsUnstyled defaultValue={0}>
       <TabsList>
         <Tab>Frontend Development</Tab>
-        <Tab>Backend Development</Tab>
         <Tab>Systems Operation</Tab>
+        <Tab>Backend Development</Tab>
       </TabsList>
       <TabPanel value={0}>
           <Frontend detailsFE ={this.state.dataTitle} ></Frontend>   
@@ -110,7 +110,7 @@ class Introduce extends Component {
       <TabPanel value={1}>
       <Backend detailsBE ={this.state.dataTitle} ></Backend>   
         </TabPanel>
-      <TabPanel value={2}>Third content</TabPanel>
+      <TabPanel value={2}></TabPanel>
     </TabsUnstyled>
 
     </div>
