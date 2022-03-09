@@ -61,21 +61,24 @@ class Banner extends Component {
                                 <div className='move-box'>
                                     <ZoomIndiv>
                                         <div>
-                                            <img src={require('../../img/item5.png')} />
+                                            <img src={require('../../img/item5.png')} className='move1' />
                                         </div>
+
+                                        
                                     </ZoomIndiv>
-                                    <LightSpeed left cascade delay={1500}>
+                                    <LightSpeed left delay={1500}>
 
                                         <img src={require('../../img/item1.png')} />
                                     </LightSpeed>
-
-                                    <Roll delay={2500}>
-                                    <img src={require('../../img/item2.png')} />
-                                    </Roll>
-
-                                    <Fade top delay={2600}>
-                                    <img src={require('../../img/item3.png')} />
+                                    
+                                    <Fade top delay={2500}>
+                    
+                                        <img src={require('../../img/item2.png')}/>
                                     </Fade>
+
+                                    <Roll delay={2600}>
+                                    <img src={require('../../img/item3.png')}/>
+                                    </Roll>
                                     <img src={require('../../img/item4.png')} className='move2' />
                                 </div>
                             </div>

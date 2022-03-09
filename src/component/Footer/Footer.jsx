@@ -7,9 +7,9 @@ class Footer extends Component {
             <div className="footer">
                 <div className="container text-center banner-content mb-0">
                     <span style={
-                        { fontSize: '15px',
-                        fontWeight: 400,
-                        letterSpacing:'normal'
+                        { fontSize: '16px',
+                        fontWeight: 'bold',
+                        letterSpacing:'1px'
                      }}
                     
                     

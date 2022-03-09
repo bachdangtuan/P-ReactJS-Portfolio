@@ -9,24 +9,25 @@ import TabPanelUnstyled from '@mui/base/TabPanelUnstyled';
 import { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled';
 import TabUnstyled, { tabUnstyledClasses } from '@mui/base/TabUnstyled';
 
-const blue = {
-  50: '#F0F7FF',
-  100: '#C2E0FF',
-  200: '#80BFFF',
-  300: '#66B2FF',
-  400: '#3399FF',
-  500: '#007FFF',
-  600: '#0072E5',
-  700: '#0059B2',
-  800: '#004C99',
-  900: '#003A75',
+const purple = {
+  50: '#EE82EE',
+  100: '#DA70D6',
+  200: '#FF00FF',
+  300: '#BA55D3',
+  400: '#19293e',
+  500: '#6f42c1',
+  600: '#9400D3',
+  700: '#9932CC',
+  800: '#8B008B',
+  900: '#800080',
+  1000: '#ffffff',
 };
 
 const Tab = styled(TabUnstyled)`
   font-family: IBM Plex Sans, sans-serif;
   color: white;
   cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 18px;
   font-weight: bold;
   background-color: transparent;
   width: 100%;
@@ -38,19 +39,18 @@ const Tab = styled(TabUnstyled)`
   justify-content: center;
 
   &:hover {
-    background-color: ${blue[400]};
+    background-color: ${purple[1000]};
+    color: ${purple[500]};
   }
 
   &:focus {
-    color: #fff;
-    border-radius: 3px;
-    outline: 2px solid ${blue[200]};
-    outline-offset: 2px;
+    color: ${purple[500]};
+    border-radius: 5px;
   }
 
   &.${tabUnstyledClasses.selected} {
-    background-color: ${blue[50]};
-    color: ${blue[600]};
+    background-color: ${purple[1000]};
+    color: ${purple[500]};
   }
 
   &.${buttonUnstyledClasses.disabled} {

@@ -1,4 +1,5 @@
 .footer{
-    background-color: #b3a1ff;
+    background: linear-gradient(to right bottom, #896eff, #19293e  );
     padding: 10px;
+    color: white;
 }
