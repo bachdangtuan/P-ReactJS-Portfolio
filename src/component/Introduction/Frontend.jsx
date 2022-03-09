@@ -8,8 +8,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class Frontend extends Component {
     renderSP = () => {
-        let { details } = this.props
-        return details.map((sp, index) => {
+        let { detailsFE } = this.props
+        return detailsFE.map((sp, index) => {
             return (
                 <div className='text-primary'>
                     <h5 className='mt-4'>{sp.fe1}</h5>
@@ -31,14 +31,12 @@ export default class Frontend extends Component {
         return (
             <div className="row align-items-center">
                 <div className="col-md-6">
-
+                <ScrollAnimation animateIn="slideInRight" delay={1200}>
+                <img src="https://picsum.photos/id/1/1000/800" alt="" />
+                </ScrollAnimation>
                 </div>
                 <div className="col-md-6">
-                    <h1>Frontend
-                        <span className='text-primary'> Development</span>
-                    </h1>
-
-                    <ScrollAnimation animateIn="fadeInUp">
+                    <ScrollAnimation animateIn="fadeInUp" delay={1000}>
                         {this.renderSP()}
                     </ScrollAnimation>
                 </div>
