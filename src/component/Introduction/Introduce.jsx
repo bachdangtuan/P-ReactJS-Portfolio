@@ -4,17 +4,18 @@ import axios from 'axios';
 
 class Introduce extends Component {
     state = {
-        dataProduct: []
+        dataTitle: []
       }
       componentDidMount() {
+
         axios.get(`https://622467d23af069a0f9b511e7.mockapi.io/TuanAPI`)
           .then(res => {
-            const dataProduct = res.data;
-            console.log(dataProduct);
-            this.setState({ dataProduct });
+            const dataTitle = res.data;
+            this.setState({ dataTitle });
           })
           .catch(error => console.log(error));
       }
+      
       
     render() {
         return (
@@ -22,7 +23,7 @@ class Introduce extends Component {
                 <h1 className='text-center'>I CAN
                     <span className='text-primary'> DO !</span>
                 </h1>
-                <Frontend></Frontend>
+                <Frontend details = {this.state.dataTitle}></Frontend>
             </div>
 
         );
