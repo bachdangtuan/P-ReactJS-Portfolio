@@ -99,12 +99,36 @@ img{
 }
 @keyframes moveing1 {
     0% {
-      transform: rotate(-2deg);
+        transform: rotateX(45deg);
     }
     50% {
-      transform: rotate(2deg) 
+        transform: rotateX(37deg);
     }
     100% {
-      transform: rotate(-2deg) 
+        transform: rotateX(45deg);
 }
 }
+@keyframes moveing3 {
+    0% { 
+        transform: matrix(2, 1, 1, 0, 2, 2);
+    }
+    30% {
+        transform: translate(-80px, 40px);
+    }
+    45% {
+        transform: translate(-58px, 16px);
+    }
+    55% {
+        transform: translate(-160px, 90px);
+    }
+    65% {
+        transform: translate(-160px, 90px);
+    }
+    85% {
+        transform: translate(-157px , 23px);
+    }
+    100% {
+        transform: rotate3d(15, 95, 9, 30deg);
+}
+}
+
