@@ -50,8 +50,8 @@ export default function Navbar() {
                  <Fade top>
         
                     <a className="navbar-brand" href="#">
-                        <img src={require('../../img/logo2.png')} style={
-                            { height: '65px' }} />
+                        <h3>DΛn9Tuaz</h3>
+                
                     </a>
                     <button className="navbar-toggler collapsed navicon justify-content-end " type="button"
                         data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,11 +62,7 @@ export default function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <a className="navbar-brand logo-header" href="#">
-                            <img src={require('../../img/logo3.png')} style={
-                                {
-                                    height: '65px',
-                                    transform: 'translate(-10px, -15px)'
-                                }} />
+                                <h5>DΛn9Tuaz ©</h5>
                         </a>
 
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
