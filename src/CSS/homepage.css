@@ -117,4 +117,10 @@ button:focus{
        .texth4{
          width: 40% !important;
        }
+
+       .frontEnd{
+
+        width: 95%;
+        margin: auto;
+       }
   }
