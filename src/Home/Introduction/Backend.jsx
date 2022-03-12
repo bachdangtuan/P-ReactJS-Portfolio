@@ -2,15 +2,15 @@ import React, { Component } from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class Backend extends Component {
-    renderBE = () => {
-        let { detailsBE } = this.props
-        console.log(detailsBE);
-        return detailsBE.map((sp, index) => {
+    renderSO = () => {
+        let { detailsSO } = this.props
+        console.log(detailsSO);
+        return detailsSO.map((sp, index) => {
             return <div>
 
-                <h5 className='mt-4'>{sp.mt1}</h5>
-                <h5 className='mt-4'>{sp.mt2}</h5>
-                <h5 className='mt-4'>{sp.mt3}</h5>
+                <h6 className='mt-4'>{sp.mt1}</h6>
+                <h6 className='mt-4'>{sp.mt2}</h6>
+                <h6 className='mt-4'>{sp.mt3}</h6>
             </div>
         })
     }
@@ -19,7 +19,7 @@ export default class Backend extends Component {
             <div className="row align-items-center">
                 <div className="col-md-6">
                     <ScrollAnimation animateIn="slideInLeft">
-                        {this.renderBE()}
+                        {this.renderSO()}
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-6">

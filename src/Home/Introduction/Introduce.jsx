@@ -107,9 +107,9 @@ class Introduce extends Component {
           <Frontend detailsFE ={this.state.dataTitle} ></Frontend>   
         </TabPanel>
       <TabPanel value={1}>
-      <Backend detailsBE ={this.state.dataTitle} ></Backend>   
+      <Backend detailsSO ={this.state.dataTitle} ></Backend>   
         </TabPanel>
-      <TabPanel value={2}>Updating</TabPanel>
+      <TabPanel value={2}>Đang trong quá trình nghiên cứu và học tập</TabPanel>
     </TabsUnstyled>
 
     </div>

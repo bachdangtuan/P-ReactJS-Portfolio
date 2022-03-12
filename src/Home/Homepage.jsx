@@ -8,10 +8,6 @@ class Homepage extends Component {
     render() {
         return (
             <div name='Hompage'>
-                {/* Navbar */}
-                <section name='Navbar'>
-                    <Navbar />
-                </section>
                 {/* Banner */}
                 <section name='Banner'>
                     <Banner />

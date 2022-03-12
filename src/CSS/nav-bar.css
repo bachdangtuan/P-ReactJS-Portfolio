@@ -55,6 +55,9 @@
     left: -80px;
     transition: 0.2s all;
 }
+.navbar-brand h3{
+    margin-bottom: 0;
+}
 
 
 
