@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import Homepage from './component/Homepage';
 import './CSS/homepage.css';
+import MyPortfolio from './MyPortfolio';
 
 function App() {
   return (
-          <Homepage> </Homepage>
+      <MyPortfolio></MyPortfolio>
   );
 }
 

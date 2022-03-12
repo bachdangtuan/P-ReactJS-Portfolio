@@ -15,7 +15,7 @@ class Homepage extends Component {
                 {/* Banner */}
                 <section name='Banner'>
                     <Banner />
-                </section>  
+                </section>
                 <section name='Introduction'>
                     <div className="container py-5">
                         <div className='py-5'>
