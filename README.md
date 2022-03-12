@@ -1,18 +1,16 @@
-# Getting Started with Create React App
+# Portfolio Bạch Đăng Tuấn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dự án này là profile cá nhân của Tuấn sử dụng ReactJS
+[Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Câu lệnh thực thi trong dự án
 
-In the project directory, you can run:
+Câu lệnh sử dụng trong thư mục thự án
 
 ### `npm start`
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Địa chỉ localhost 
+[http://localhost:3000](http://localhost:3000)
 
 
 ## Learn More
