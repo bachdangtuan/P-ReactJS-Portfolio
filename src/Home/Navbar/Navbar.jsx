@@ -72,7 +72,7 @@ export default function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <a className="navbar-brand logo-header" href="#">
-                            <h5>DΛn9Tuaz ©</h5>
+                            <h5>DΛn9Tuaz©</h5>
                         </a>
 
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">

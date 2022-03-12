@@ -109,26 +109,20 @@ img{
 }
 }
 @keyframes moveing3 {
-    0% { 
-        transform: matrix(2, 1, 1, 0, 2, 2);
-    }
     30% {
         transform: translate(-80px, 40px);
     }
     45% {
-        transform: translate(-58px, 16px);
+        transform: translate(-68px, -38px);
     }
     55% {
         transform: translate(-160px, 90px);
     }
     65% {
-        transform: translate(-160px, 90px);
+        transform: translate(-9px, -80px);
     }
     85% {
         transform: translate(-157px , 23px);
     }
-    100% {
-        transform: rotate3d(15, 95, 9, 30deg);
-}
 }
 

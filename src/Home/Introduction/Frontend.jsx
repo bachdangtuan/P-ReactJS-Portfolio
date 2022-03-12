@@ -45,8 +45,6 @@ export default class Frontend extends Component {
                     <ScrollAnimation animateIn="fadeInUp">
                     <h2>Frontend</h2>
                         {this.renderSP()}
-
-
                     </ScrollAnimation>
 
                 </div>

@@ -10,10 +10,8 @@ class Footer extends Component {
                         { fontSize: '16px',
                         fontWeight: 'bold',
                         letterSpacing:'1px'
-                     }}
-                    
-                    
-                    >💚Creater by Bach Dang Tuan💚</span>
+                     }}  
+                    >💚BẠCH ĐĂNG TUẤN - DΛn9Tuaz💚</span>
                 </div>
 
             </div>

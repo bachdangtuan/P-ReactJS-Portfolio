@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Frontend from './Frontend';
 import axios from 'axios';
-import Backend from './Backend';
+import SystemOperation from './SystemOperation';
 import { styled } from '@mui/system';
 import TabsUnstyled from '@mui/base/TabsUnstyled';
 import TabsListUnstyled from '@mui/base/TabsListUnstyled';
@@ -107,9 +107,9 @@ class Introduce extends Component {
           <Frontend detailsFE ={this.state.dataTitle} ></Frontend>   
         </TabPanel>
       <TabPanel value={1}>
-      <Backend detailsSO ={this.state.dataTitle} ></Backend>   
+      <SystemOperation detailsSO ={this.state.dataTitle} ></SystemOperation>   
         </TabPanel>
-      <TabPanel value={2}>Đang trong quá trình nghiên cứu và học tập</TabPanel>
+      <TabPanel value={2}detailsSO ={this.state.dataTitle}></TabPanel>
     </TabsUnstyled>
 
     </div>
