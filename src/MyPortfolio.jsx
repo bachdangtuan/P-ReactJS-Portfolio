@@ -20,7 +20,6 @@ class MyPortfolio extends Component {
 
                 <Navbar></Navbar>
 
-                <div>
 
                     <Routes>
                        
@@ -38,7 +37,7 @@ class MyPortfolio extends Component {
                         <Route path="/working" element={<WorkProcess />} />
                         <Route path="*" element={<NoMatch />} />
                     </Routes>
-                </div>
+   
             </div>
         );
     }
