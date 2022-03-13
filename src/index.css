@@ -23,14 +23,6 @@ code {
       width: 35%;
   }
 }
-@media (320px <= width <= 768px ) {
-  .loader__div{
-        height: 861px;
-  }
-  .loader__div img{
-    width: 50%;
-}
-}
 @media (1024px <= width <= 1440px ) {
   .loader__div{
         height: 623px;
@@ -47,6 +39,21 @@ code {
     width: 25%;
 }
 }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .loader__div{
+        height: 812px;
+        }
+      .loader__div img{
+        width: 40%;
+        }
+
+
+    }
+
+
 
 
 
