@@ -7,7 +7,7 @@ class Loadscreen extends Component {
     
     render() {
         return (
-            <div className=' position-relative mh-100 w-100 loader' style={{zIndex:9000}}>
+            <div className=' position-relative mh-100 w-100 loader' style={{zIndex:9430}}>
                 <div className="row m-auto w-100 loader__div" 
                 style={{
                     background:'#011831',
