@@ -13,7 +13,7 @@ const NoMatch = () => {
           404 <br />
           Page Not Found
         </h1>
-        <p>Sorry, the page you were looking for does not exist.</p>
+        <p>Sorry !, the page you were looking for does not exist.</p>
         <p>Go To Homepage by Button Below</p>
         <Link to="/" className="btn btn-primary">Home Page</Link>
       </div>
