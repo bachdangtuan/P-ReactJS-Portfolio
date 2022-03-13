@@ -22,3 +22,9 @@ const NoMatch = () => {
 }
 
 export default NoMatch
+
+// Deploy vercel
+// CI='' npm run build
+// build
+// npm install
+// react-scripts start
