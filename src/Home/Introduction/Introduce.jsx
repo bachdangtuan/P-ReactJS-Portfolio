@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Frontend from './Frontend';
-import axios from 'axios';
+import Backend from './Backend';
 import SystemOperation from './SystemOperation';
+
+import axios from 'axios';
 import { styled } from '@mui/system';
 import TabsUnstyled from '@mui/base/TabsUnstyled';
 import TabsListUnstyled from '@mui/base/TabsListUnstyled';
@@ -96,23 +98,25 @@ class Introduce extends Component {
         <div className='my-4'>
 
           <h4 className="m-auto texth4" style={{ backgroundColor: 'rgba(137, 110, 255, 0.1)', borderRadius: 10, width: '15%' }}>I CAN<span className="text-primary"> DO </span></h4>
-    </div>
-    <TabsUnstyled defaultValue={0}>
-      <TabsList>
-        <Tab>Frontend Development</Tab>
-        <Tab>Systems Operation</Tab>
-        <Tab>Backend Development</Tab>
-      </TabsList>
-      <TabPanel value={0}>
-          <Frontend detailsFE ={this.state.dataTitle} ></Frontend>   
-        </TabPanel>
-      <TabPanel value={1}>
-      <SystemOperation detailsSO ={this.state.dataTitle} ></SystemOperation>   
-        </TabPanel>
-      <TabPanel value={2}detailsSO ={this.state.dataTitle}></TabPanel>
-    </TabsUnstyled>
+        </div>
+        <TabsUnstyled defaultValue={0}>
+          <TabsList>
+            <Tab>Frontend Development</Tab>
+            <Tab>Systems Operation</Tab>
+            <Tab>Backend Development</Tab>
+          </TabsList>
+          <TabPanel value={0}>
+            <Frontend detailsFE={this.state.dataTitle} />
+          </TabPanel>
+          <TabPanel value={1}>
+            <SystemOperation detailsSO={this.state.dataTitle} />
+          </TabPanel>
+          <TabPanel value={2}>
+            <Backend detailsBE={this.state.dataTitle} />
+          </TabPanel> 
+        </TabsUnstyled>
 
-    </div>
+      </div>
 
     );
   }
