@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 class Loadscreen extends Component {
-    // test = window.setInterval(function() {
-    //     window.location.href = '/home';
-    // }, 1500);
+    test = window.setInterval(function() {
+        window.location.href = '/home';
+    }, 2000);
     
     render() {
         return (
