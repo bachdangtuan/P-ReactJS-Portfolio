@@ -77,7 +77,7 @@ export default function Navbar() {
 
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                             <li className='nav-item pr-3'>
-                                <NavLink to="/" className="nav-link active">Home
+                                <NavLink to="/home" className="nav-link active">Home
                                     <i class="fa fa-chevron-right"></i>
                                 </NavLink>
                             </li>
