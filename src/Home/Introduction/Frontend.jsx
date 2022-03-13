@@ -28,7 +28,7 @@ export default class Frontend extends Component {
         return (
             <div className="row align-items-center">
                 <div className="col-md-6 frontEnd">
-                    <ScrollAnimation animateIn="fadeInUp">
+                    <ScrollAnimation animateIn="fadeIn">
                         <img src={require('../../img/icon11.png')} />
                         <img src={require('../../img/icon1.png')} />
                         <img src={require('../../img/icon2.png')} />
