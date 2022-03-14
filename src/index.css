@@ -202,7 +202,11 @@ code {
        }
        .navbar-brand img{
          height: 45px !important;
-         padding-left: 10px;
+         /* padding-left: 10px; */
+       }
+       .nav-link{
+         padding: 0px;
+         margin-bottom: 15px;
        }
        .css-rda88r{
         width: 90%;
