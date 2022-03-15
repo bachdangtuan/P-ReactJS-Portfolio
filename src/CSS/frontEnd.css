@@ -23,3 +23,23 @@
 .frontEnd img:nth-child(10){
     animation: moveing2 3s infinite;
 }
+
+.operation img:nth-child(3){
+    top: -30px;
+    left: 7px;
+    animation: moveing4 3s infinite;
+}
+.operation img:nth-child(5){
+    animation: moveing5 3s infinite;
+}
+
+@keyframes moveing4 {
+    50% {
+        transform: translate(7px, 40px);
+    }
+}
+@keyframes moveing5 {
+    50% {
+        transform: scale(1.08);
+    }
+}
