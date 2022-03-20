@@ -17,12 +17,12 @@ code {
 /* Tablet */
 @media (768px <= width <= 1024px ) {
   .loader__div{
-        height: 623px;
+        height: 100vh;
   }
 }
 @media (1024px <= width <= 1440px ) {
   .loader__div{
-        height: 623px;
+    height: 100vh;
   }
   .loader__div img{
     width: 25%;
@@ -30,7 +30,7 @@ code {
 }
 @media (1441px <= width <= 2560px ) {
   .loader__div{
-        height: 1024px;
+    height: 100vh;
   }
   .loader__div img{
     width: 25%;
@@ -47,7 +47,7 @@ code {
  /* iphone 6, 6s, 7, 8 */
  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
   .loader__div{
-    height: 812px;
+    height: 100vh;
     }
   .loader__div img{
     width: 40%;
@@ -57,7 +57,7 @@ code {
  /* iphone 6+, 6s+, 7+, 8+ */
  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .loader__div{
-    height: 736px;
+    height: 100vh;
     }
   .loader__div img{
     width: 40%;
@@ -68,7 +68,7 @@ code {
  /* iphone X , XS, 11 Pro, 12 Mini */
  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
   .loader__div{
-    height: 812px;
+    height: 100vh;
     }
   .loader__div img{
     width: 40%;
@@ -80,7 +80,7 @@ code {
  /* iphone 12, 12 Pro */
  @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
   .loader__div{
-    height: 844px;
+    height: 100vh;
     }
   .loader__div img{
     width: 40%;
@@ -91,7 +91,7 @@ code {
  /* iphone XR, 11 */
  @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
   .loader__div{
-    height: 896px;
+    height: 100vh;
     }
   .loader__div img{
     width: 40%;
@@ -102,7 +102,7 @@ code {
  /* iphone XS Max, 11 Pro Max */
  @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) { 
   .loader__div{
-    height: 896px;
+    height: 100vh;
     }
   .loader__div img{
     width: 40%;
@@ -114,7 +114,7 @@ code {
  @media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) { 
 
   .loader__div{
-    height: 926px;
+    height: 100vh;
     }
   .loader__div img{
     width: 40%;
