@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Loadscreen extends Component {
     test = window.setInterval(function() {
         window.location.href = '/home';
-    }, 1000);
+    }, 800);
     
     render() {
         return (
