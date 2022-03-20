@@ -227,7 +227,10 @@ code {
        }
 
        .frontEnd{
-
+        width: 95%;
+        margin: auto;
+       }
+       .imgContact{
         width: 95%;
         margin: auto;
        }
