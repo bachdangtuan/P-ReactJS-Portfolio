@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 class Loadscreen extends Component {
-    // test = window.setInterval(function() {
-    //     window.location.href = '/home';
-    // }, 900);
+    test = window.setInterval(function() {
+        window.location.href = '/home';
+    }, 1000);
     
     render() {
         return (
@@ -11,7 +11,7 @@ class Loadscreen extends Component {
                 <div className="row m-auto w-100 loader__div " 
                 style={{
                     background:'#011831',
-                    // height:'948px',  
+                    height:'100vh',  
                 }}
                 
                 >
