@@ -86,6 +86,7 @@ class Introduce extends Component {
       .then(res => {
         const dataTitle = res.data;
         this.setState({ dataTitle });
+        console.log(dataTitle);
       })
       .catch(error => console.log('test error', error));
   }

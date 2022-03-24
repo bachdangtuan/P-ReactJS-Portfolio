@@ -19,6 +19,19 @@ class Contact extends Component {
                                     <span className='text-primary'> ME</span>
                                 </h1>
                             </ScrollAnimation>
+                            <br />
+                            <ScrollAnimation animateIn="fadeInUp" delay={1000}>
+                                <img src={require('../img/logo-zalo.png')} width={50} /> <span>0934010704</span>
+                                <br /><br />
+                                <img src={require('../img/skype.png')} width={50} /> <span>0934010704</span>
+                                <br /><br />
+                                <img src={require('../img/f.png')} width={50} /> <span>0934010704</span>
+                                <br /><br />
+                                <a href=''>
+                                <img src={require('../img/gm.png')} width={50} /> <span>bachdangtuan93@gmail.com</span>
+                                </a>
+                                <br /><br />
+                            </ScrollAnimation>
                         </div>
                         <div className="col-md-6 frontEnd">
                             <ScrollAnimation animateIn="fadeIn" delay={1000}>
