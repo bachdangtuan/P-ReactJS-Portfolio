@@ -20,15 +20,21 @@ class Contact extends Component {
                                 </h1>
                             </ScrollAnimation>
                             <br />
-                            <ScrollAnimation animateIn="fadeInUp" delay={1000}>
+                            <ScrollAnimation animateIn="fadeInUp" delay={700}>
+                                <a href='https://zalo.me/0934010704' >
                                 <img src={require('../img/logo-zalo.png')} width={50} /> <span>0934010704</span>
                                 <br /><br />
-                                <img src={require('../img/skype.png')} width={50} /> <span>0934010704</span>
+                                </a>
+                                <a href="skype:live:.cid.592f5cd485144be1?chat">
+                                <img src={require('../img/skype.png')} width={50} /> <span>Talk with me via Skype</span> 
+                                </a>
                                 <br /><br />
-                                <img src={require('../img/f.png')} width={50} /> <span>0934010704</span>
+                                <a href='https://www.facebook.com/darktuan93/' >
+                                    <img src={require('../img/f.png')} width={50} /> <span>https://www.facebook.com/darktuan93/</span>
+                                </a>
                                 <br /><br />
-                                <a href=''>
-                                <img src={require('../img/gm.png')} width={50} /> <span>bachdangtuan93@gmail.com</span>
+                                <a href="mailto:bachdangtuan93@gmail.com">
+                                    <img src={require('../img/gm.png')} width={50} /> <span>bachdangtuan.dev@gmail.com</span>
                                 </a>
                                 <br /><br />
                             </ScrollAnimation>
