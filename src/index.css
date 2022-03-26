@@ -12,6 +12,9 @@ a{
 a:hover {
   color: red !important;
 }
+li {
+  list-style: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

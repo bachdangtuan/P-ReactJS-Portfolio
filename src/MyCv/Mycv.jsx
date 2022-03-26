@@ -11,8 +11,8 @@ export default class Mycv extends Component {
                             <div className="left-side">
                                 <div className="profile-info">
                                     <img src="assets/images/profile.jpg" alt />
-                                    <h3>Jonney Anderson</h3>
-                                    <span>Web Designer</span>
+                                    <h3>Bach Dang Tuan</h3>
+                                    <span>Website Developer</span>
                                 </div>
                                 <h4 className="ltitle">Contact</h4>
                                 <div className="contact-box pb0">
@@ -74,8 +74,8 @@ export default class Mycv extends Component {
                         <div className="col-md-8 rt-div">
                             <div className="rit-cover">
                                 <div className="hotkey">
-                                    <h1 className>Jonney Anderson </h1>
-                                    <small>Web Designer</small>
+                                    <h1 className>Bach Dang Tuan </h1>
+                                    <small>Website Developer</small>
                                 </div>
                                 <h2 className="rit-titl"><i className="far fa-user" /> Profile</h2>
                                 <div className="about">

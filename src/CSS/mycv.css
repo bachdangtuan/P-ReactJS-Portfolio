@@ -88,17 +88,17 @@
         color: #444; }
   
   .btn-success {
-    background-color: #00ab9f;
-    border-color: #00ab9f; }
+    background-color: #816ae9;
+    border-color: #896efe;}
     .btn-success:hover {
-      background-color: #00ab9f !important;
-      border-color: #00ab9f !important; }
+      background-color: #896efe!important;
+      border-color: #896efe !important; }
     .btn-success:active {
-      background-color: #00ab9f !important;
-      border-color: #00ab9f !important; }
+      background-color: #896efe !important;
+      border-color: #896efe !important; }
     .btn-success:focus {
-      background-color: #00ab9f !important;
-      border-color: #00ab9f !important;
+      background-color: #896efe !important;
+      border-color: #896efe !important;
       box-shadow: none !important; }
   
   .btn-info {
@@ -168,7 +168,7 @@
           height:100%;
         }
     .profile-box .left-side {
-      background-color: #00ab9f;
+      background-color: #896efe;
       color: #FFF;
       padding: 40px 20px; }
       .profile-box .left-side .profile-info {
@@ -246,13 +246,9 @@
   .rit-cover .hotkey {
     text-align: right;
     padding: 30px 20px; }
-    .rit-cover .hotkey h1 {
-      width: 100%;
-      text-align: right;
-      color: #c7c2c2; }
     .rit-cover .hotkey small {
       font-size: 1rem;
-      color: #9c9898;
+      color: #212a71;
       margin-top: -30px;
       font-weight: 600; }
   .rit-cover .rit-titl {
@@ -323,4 +319,4 @@
       .rit-cover .profess-cover .prog-row div {
         padding: 0px; }
     .rit-cover .profess-cover .progress-bar {
-      background-color: #00ab9f; }
+      background-color: #896efe; }
