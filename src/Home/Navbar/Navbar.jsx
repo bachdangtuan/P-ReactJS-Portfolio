@@ -61,9 +61,11 @@ export default function Navbar() {
             <div className="container m-auto">
                 <Fade top>
                     <NavLink to="/" className="nav-link navbar-brand ">
-                             <img src={require('../../img/logo13.png')} style={{
+                    <h3>DΛn9Tuaz©</h3>
+                             
+                                {/* <img src={require('../../img/logo13.png')} style={{
                                  width: '180px'
-                             }} />
+                             }} /> */}
                     </NavLink>
                     <button className="navbar-toggler collapsed navicon justify-content-end " type="button"
                         data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

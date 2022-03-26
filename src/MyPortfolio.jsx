@@ -8,7 +8,7 @@ import Contact from './Contact/Contact';
 import WorkProcess from './WorkProcess/WorkProcess';
 import MyProjects from './MyProjects/MyProjects';
 import Loadscreen from './Screen/Loadscreen';
-
+import Mycv from './MyCv/Mycv';
 import { Routes, Route } from 'react-router-dom'
 
 
@@ -19,9 +19,9 @@ class MyPortfolio extends Component {
             <div>
 
                 <Navbar></Navbar>
-
-
                     <Routes>
+
+
                        
                     {/* let test = window.setTimeout(function() {
      window.location.href = '/home';
@@ -35,6 +35,7 @@ class MyPortfolio extends Component {
                         <Route path="/projects" element={<MyProjects />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/working" element={<WorkProcess />} />
+                        <Route path="/mycv" element={<Mycv />} />
                         <Route path="*" element={<NoMatch />} />
                     </Routes>
    
