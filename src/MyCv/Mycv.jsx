@@ -8,7 +8,7 @@ export default class Mycv extends Component {
                 <div className="row m-auto w-100 loader__div "
                     style={{
                         background: '#011831',
-                        height: '160vh',
+                        height: '150vh',
                     }}
 
                 >
@@ -87,7 +87,9 @@ export default class Mycv extends Component {
                                     </div>
                                     <h2 className="rit-titl"><i className="far fa-user" /> Profile</h2>
                                     <div className="about">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan purus enim, a vestibulum est tristique sit amet. Suspendisse nibh nisl, imperdiet sit amet mi vitae, elementum elementum nibh. Vivamus vitae eros malesuada, convallis dolor malesuada, lobortis ex. Sed cursus augue risus, ac semper est consectetur vitae. Praesent consequat metus sit amet rhoncus luctus.</p>
+                                        <p>My name is Dang Tuan. I have a passion for computers and information technology.
+                                        I'm so excited to make a website.
+                                        </p>
                                         <div className="btn-ro row no-margin">
                                             <ul className="btn-link">
                                                 <li>
@@ -144,11 +146,11 @@ export default class Mycv extends Component {
                                         <div className="col-md-6">
                                             <div className=" prog-row row">
                                                 <div className="col-sm-6">
-                                                    Photoshop
+                                                    Code
                                                 </div>
                                                 <div className="col-sm-6">
                                                     <div className="progress">
-                                                        <div className="progress-bar" role="progressbar" style={{ width: '65%' }} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                                                        <div className="progress-bar" role="progressbar" style={{ width: '55%' }}  />
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,11 +158,11 @@ export default class Mycv extends Component {
                                         <div className="col-md-6">
                                             <div className="row prog-row">
                                                 <div className="col-sm-6">
-                                                    PHP
+                                                    Network
                                                 </div>
                                                 <div className="col-sm-6">
                                                     <div className="progress">
-                                                        <div className="progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                                                        <div className="progress-bar" role="progressbar" style={{ width: '55%' }}  />
                                                     </div>
                                                 </div>
                                             </div>
@@ -168,11 +170,11 @@ export default class Mycv extends Component {
                                         <div className="col-md-6">
                                             <div className="row prog-row">
                                                 <div className="col-sm-6">
-                                                    Web Design
+                                                    Systems
                                                 </div>
                                                 <div className="col-sm-6">
                                                     <div className="progress">
-                                                        <div className="progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                                                        <div className="progress-bar" role="progressbar" style={{ width: '55%' }} />
                                                     </div>
                                                 </div>
                                             </div>
@@ -180,11 +182,11 @@ export default class Mycv extends Component {
                                         <div className="col-md-6">
                                             <div className="row prog-row">
                                                 <div className="col-sm-6">
-                                                    Web Development
+                                                    Hardware
                                                 </div>
                                                 <div className="col-sm-6">
                                                     <div className="progress">
-                                                        <div className="progress-bar" role="progressbar" style={{ width: '55%' }} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                                                        <div className="progress-bar" role="progressbar" style={{ width: '55%' }} />
                                                     </div>
                                                 </div>
                                             </div>

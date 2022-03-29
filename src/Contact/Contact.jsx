@@ -66,7 +66,7 @@ class Contact extends Component {
                                     fontWeight: '600',
                                     fontSize: 'medium',
                                     background: 'linear-gradient(to right bottom, #896eff, #19293e  )',
-                                }}> 🌟 Download My CV
+                                }}> 🌟 My Resume
                             </Button>
                         </ScrollAnimation>
                     </div>
