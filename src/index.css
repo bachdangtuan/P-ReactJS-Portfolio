@@ -10,7 +10,7 @@ a{
   color:#6c4de3
 }
 a:hover {
-  color: red !important;
+  color: red;
 }
 li {
   list-style: none;

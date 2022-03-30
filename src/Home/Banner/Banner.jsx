@@ -28,7 +28,6 @@ const ZoomOutdiv = styled.div`
     animation:  6s ${zOAnimation};
 `;
 
-
 class Banner extends Component {
     render() {
         return (
@@ -63,31 +62,25 @@ class Banner extends Component {
                                         <div>
                                             <img src={require('../../img/item5.png')} className='move2' />
                                         </div>
-
-                                        
                                     </ZoomIndiv>
                                     <LightSpeed left delay={1500}>
 
                                         <img src={require('../../img/item1.png')} />
                                     </LightSpeed>
-                                    
+
                                     <Fade top delay={2500}>
-                    
-                                        <img src={require('../../img/item2.png')}/>
+
+                                        <img src={require('../../img/item2.png')} />
                                     </Fade>
 
                                     <Roll delay={2600}>
-                                    <img src={require('../../img/item3.png')}/>
+                                        <img src={require('../../img/item3.png')} />
                                     </Roll>
                                     <img src={require('../../img/item4.png')} className='move2' />
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
-
                 </div>
             </div>
 

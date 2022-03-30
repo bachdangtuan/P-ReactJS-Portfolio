@@ -1,0 +1,10 @@
+.bg__project{
+   background-image: url(../../public/img/bg1.jpg);
+   background-position: bottom center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.card__project{
+    border-radius: 20px !important;
+    border: 3px #896efede dashed;
+}
