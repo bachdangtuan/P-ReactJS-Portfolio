@@ -28,7 +28,7 @@ class MyProjects extends Component {
     renderProject = () => {
         let dataProd = this.state.dataProject
         return dataProd.map((sp, index) => {
-            return <div className="col-md-3" key={index}>
+            return <d   iv className="col-md-3" key={index}>
                 <Card sx={{ maxWidth: 345 }} className='m-auto card__project'>
                     <CardMedia
                         component="img"
@@ -38,10 +38,10 @@ class MyProjects extends Component {
                     />
                     <CardContent className='text-center'>
                         <Typography gutterBottom variant="h5" component="div">
-                            Template Mẫu 1
+                            {sp.tenSP}
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, expedita magnam dolores ducimus a libero voluptate officia fugit optio vitae similique possimus veniam nisi labore animi ab laboriosam sit iste!
+                           {sp.description}
                         </Typography>
                     </CardContent>
                     <CardActions className='m-auto'>
@@ -70,7 +70,7 @@ class MyProjects extends Component {
                         </a>
                     </CardActions>
                 </Card>
-            </div>
+            </d>
         })
     }
 
