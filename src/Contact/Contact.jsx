@@ -78,7 +78,6 @@ class Contact extends Component {
                             <img src={require('../img/m.png')} />
                         </ScrollAnimation>
                     </div>
-
                 </div>
             </div>
 

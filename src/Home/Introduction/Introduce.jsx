@@ -98,7 +98,7 @@ class Introduce extends Component {
       <div className='text-center'>
         <div className='my-4'>
 
-          <h4 className="m-auto texth4" style={{ backgroundColor: 'rgba(137, 110, 255, 0.1)', borderRadius: 10, width: '15%' }}>I CAN<span className="text-primary"> DO </span></h4>
+          <h1 className="m-auto texth4" style={{ borderRadius: 10 }}>I CAN<span className="text-primary"> DO </span></h1>
         </div>
         <TabsUnstyled defaultValue={0}>
           <TabsList>

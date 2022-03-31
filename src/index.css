@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(112 110 255 / 40%);
 }
 a{
   color:#6c4de3
@@ -21,6 +22,10 @@ code {
     monospace;
 }
 
+.texth4{
+  width: 25%;
+  background-color: rgba(137, 110, 255, 0.4);
+}
 
 /* RESPONSIVE WEBSITE */
 /* Tablet */
@@ -232,7 +237,8 @@ code {
          font-size: 10px;
        }
        .texth4{
-         width: 40% !important;
+         width: 65% !important;
+         font-size: 30px;
        }
 
        .frontEnd{

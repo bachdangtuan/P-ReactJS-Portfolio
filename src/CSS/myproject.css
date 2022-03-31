@@ -8,3 +8,11 @@
     border-radius: 20px !important;
     border: 3px #896efede dashed;
 }
+.MuiCardActions-root {
+    transition: transform .2s; /* Animation */
+    justify-content: center;
+}
+.MuiCardActions-root img:hover{
+    transform: scale(1.3);
+    transition: transform .5s;
+}

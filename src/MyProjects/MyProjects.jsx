@@ -9,8 +9,10 @@ import '../CSS/myproject.css';
 import axios from 'axios';
 import SvgGithub from '../Home/Banner/SvgGithub';
 import ModalProject from './ModalProject';
+import ScrollAnimation from 'react-animate-on-scroll';
 class MyProjects extends Component {
 
+    
     state = {
         dataProject: []
     }
@@ -26,27 +28,28 @@ class MyProjects extends Component {
     }
 
     renderProject = () => {
+        
         let dataProd = this.state.dataProject
         return dataProd.map((sp, index) => {
-            return <d   iv className="col-md-3" key={index}>
+            return <d iv className="col-xl-3" key={index}>
                 <Card sx={{ maxWidth: 345 }} className='m-auto card__project'>
                     <CardMedia
                         component="img"
                         alt="green iguana"
                         height="140"
-                        image="https://picsum.photos/300/200 "
+                        image="https://picsum.photos/300/200"
                     />
                     <CardContent className='text-center'>
                         <Typography gutterBottom variant="h5" component="div">
                             {sp.tenSP}
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                           {sp.description}
+                            {sp.description}
                         </Typography>
                     </CardContent>
                     <CardActions className='m-auto'>
                         <Button variant="contained"
-                            href='https://github.com/bachdangtuan' target="_blank"
+                            href={sp.link} target="_blank"
                             sx={{
                                 borderRadius: '10px',
                                 maxHeight: '50px',
@@ -56,7 +59,7 @@ class MyProjects extends Component {
                             }}>Live view
                         </Button>
                         <Button variant="contained"
-                            href='https://github.com/bachdangtuan' target="_blank"
+                            href='#'
                             sx={{
                                 borderRadius: '10px',
                                 maxHeight: '50px',
@@ -66,7 +69,10 @@ class MyProjects extends Component {
                             }} data-toggle="modal" data-target="#modelId">Info
                         </Button>
                         <a href='https://google.com'>
-                            <SvgGithub></SvgGithub>
+                            <Button href='#'>
+                             <SvgGithub></SvgGithub>
+
+                            </Button>
                         </a>
                     </CardActions>
                 </Card>
@@ -79,23 +85,35 @@ class MyProjects extends Component {
     render() {
         return (
             <div>
-                <div style={{
-                    height: '130px'
-                }} className='bg-light'>
-                </div>
-                <div className='text-center container'>
-                    <div className="row">
-                        <div className="col-md-6">
-                            <p>Đây là trang MyProjects</p>
+                <div className='container pb-5' style={{
+                    paddingTop: '150px'
+                }}>
+                    <div className='row align-items-center'>
+                        <div className='col-md-6 banner-content'>
+                            <ScrollAnimation animateIn="fadeInUp">
+                                <h1>MY
+                                    <span className='text-primary'> PROJECT </span>
+                                </h1>
+                                <p>I am always looking and learning everywhere to improve my personal skills. The way that I teach myself is practice.
+                                </p>
+
+                            </ScrollAnimation>
+                            <br />
                         </div>
-                        <div className="col-md-6">
-                            <p>Ảnh</p>
+                        <div className="col-md-6 frontEnd myproject">
+                            <ScrollAnimation animateIn="fadeIn" delay={400}>
+                                <img src={require('../img/shadow.png')} />
+                                <img src={require('../img/banner.png')} />
+                                <img src={require('../img/title.png')} />
+                                <img src={require('../img/plan.png')} />
+                                <img src={require('../img/char2.png')} />
+                                <img src={require('../img/char1.png')} />
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>
-                <div className='bg__project'>
-                    <h4 className='text-center text-light'>My Project</h4>
-                    <div className="row m-auto  ">
+                <div className='bg__project pb-5'>
+                    <div className="row m-auto pt-5 ">
                         {/* Danh Sách Dự Án */}
                         {this.renderProject()}
                     </div>

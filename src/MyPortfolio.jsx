@@ -9,6 +9,7 @@ import WorkProcess from './WorkProcess/WorkProcess';
 import MyProjects from './MyProjects/MyProjects';
 import Loadscreen from './Screen/Loadscreen';
 import Mycv from './MyCv/Mycv';
+import Footer from './Home/Footer/Footer';
 import { Routes, Route } from 'react-router-dom'
 
 
@@ -19,26 +20,29 @@ class MyPortfolio extends Component {
             <div>
 
                 <Navbar></Navbar>
-                    <Routes>
+                <Routes>
 
 
-                       
+
                     {/* let test = window.setTimeout(function() {
      window.location.href = '/home';
  }, 2000); */}
 
-                        <Route path="/" element={<Loadscreen />}
-                     
-                        />
-                        <Route path="/home" element={<Homepage />} />
-                        <Route path="/education" element={<Education />} />
-                        <Route path="/projects" element={<MyProjects />} />
-                        <Route path="/contact" element={<Contact />} />
-                        <Route path="/working" element={<WorkProcess />} />
-                        <Route path="/mycv" element={<Mycv />} />
-                        <Route path="*" element={<NoMatch />} />
-                    </Routes>
-   
+                    <Route path="/" element={<Loadscreen />}
+
+                    />
+                    <Route path="/home" element={<Homepage />} />
+                    <Route path="/education" element={<Education />} />
+                    <Route path="/projects" element={<MyProjects />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/working" element={<WorkProcess />} />
+                    <Route path="/mycv" element={<Mycv />} />
+                    <Route path="*" element={<NoMatch />} />
+                </Routes>
+                {/* Footer */}
+                <section name='Footer'>
+                    <Footer></Footer>
+                </section>
             </div>
         );
     }
