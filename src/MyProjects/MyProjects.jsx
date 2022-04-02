@@ -140,6 +140,13 @@ const mapStateToProps  = (dispatch) => {
                 "timeStart": sp.timeStart,
                 "timeEnd": sp.timeEnd,
                 "timeRelease": sp.timeRelease,
+                "logoRJ":sp.logoRJ,
+                "logoredux":sp.logoredux,
+                "logobs":sp.logobs,
+                "logoex":sp.logoex,
+                "logomu":sp.logomu,
+                "logomongo":sp.logomongo,
+                "logonj":sp.logonj,
                 "teamSize": sp.teamSize
           }
           const action = {

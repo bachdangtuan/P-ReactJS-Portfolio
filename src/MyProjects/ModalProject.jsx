@@ -12,6 +12,7 @@ class ModalProject extends Component {
                     <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                         <span>X</span>
                     </button>
+              
                 </div>
                 <div className="modal-body">
                     <table className="table">
@@ -58,7 +59,15 @@ class ModalProject extends Component {
                     </div>
                     <hr/>
                     <div className='container pl-4 pr-4'>
-                        <p>Công nghệ sử dụng</p>
+                        <span>Công nghệ sử dụng
+                        <img src={sp.logoRJ} alt="" width={75} />
+                        <img src={sp.logoredux} alt="" width={75} />
+                        <img src={sp.logobs} alt="" width={75} />
+                        <img src={sp.logoex} alt="" width={75} />
+                        <img src={sp.logomu} alt="" width={75} />
+                        <img src={sp.logomongo} alt="" width={75} />
+                        <img src={sp.logonj} alt="" width={75} />
+                        </span>
                     </div>
                 </div>
                 <div className="modal-footer">

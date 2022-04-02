@@ -8,6 +8,13 @@
      "timeStart": "10/10/2010",
      "timeEnd": "20/2/1993",
      "timeRelease": "30",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     },
     {
@@ -19,6 +26,13 @@
      "timeStart": "10/10/2010",
      "timeEnd": "20/2/1993",
      "timeRelease": "30",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     },
     {
@@ -30,6 +44,13 @@
      "timeStart": "10",
      "timeEnd": "20/2/1993",
      "timeRelease": "30",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     },
     {
@@ -41,6 +62,13 @@
      "timeStart": "10",
      "timeEnd": "20/2/1993",
      "timeRelease": "30",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     },
     {
@@ -52,6 +80,13 @@
      "timeStart":"20/2/1993",
      "timeEnd": "20/2/1993",
      "timeRelease": "20/2/1993",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     },
     {
@@ -63,6 +98,13 @@
      "timeStart":"20/2/1993",
      "timeEnd": "20/2/1993",
      "timeRelease": "20/2/1993",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     },
     {
@@ -74,6 +116,13 @@
      "timeStart":"20/2/1993",
      "timeEnd": "20/2/1993",
      "timeRelease": "20/2/1993",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     },
     {
@@ -85,6 +134,13 @@
      "timeStart":"20/2/1993",
      "timeEnd": "20/2/1993",
      "timeRelease": "20/2/1993",
+     "logoRJ":"../img/logo/reactjs.png",
+     "logoredux":"../img/logo/redux.png",
+     "logobs":"../img/logo/bootstrap.png",
+     "logoex":"../img/logo/ExpressJS.png",
+     "logomu":"../img/logo/metarial.png",
+     "logomongo":"../img/logo/mongodb.png",
+     "logonj":"../img/logo/nodejs.png",
      "teamSize": 1
     }
    ]
