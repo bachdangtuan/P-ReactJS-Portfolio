@@ -20,17 +20,10 @@ class MyPortfolio extends Component {
             <div>
 
                 <Navbar></Navbar>
+                
                 <Routes>
 
-
-
-                    {/* let test = window.setTimeout(function() {
-     window.location.href = '/home';
- }, 2000); */}
-
-                    <Route path="/" element={<Loadscreen />}
-
-                    />
+                    <Route path="/" element={<Loadscreen />}/>
                     <Route path="/home" element={<Homepage />} />
                     <Route path="/education" element={<Education />} />
                     <Route path="/projects" element={<MyProjects />} />

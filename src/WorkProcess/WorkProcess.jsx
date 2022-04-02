@@ -14,7 +14,7 @@ class WorkProcess extends Component {
                 {/* Ảnh background và chữ  */}
                 <div>
                     <div className='container pb-5' style={{
-                        paddingTop: '150px'
+                        paddingTop: '220px'
                     }}>
                         <div className='row align-items-center'>
                             <div className='col-md-6 banner-content'>
@@ -23,7 +23,7 @@ class WorkProcess extends Component {
                                         <span className='text-primary'> PROCESS </span>
                                     </h1>
                                     <p>I used to study and work in an information technology environment as a Network Engineer, Systems Administrator.<br /> <br />
-                                    I had 1 year of self-study at Terralogic Software.In addition, I have some other skills in information technology
+                                    I had 1 year of self-study for Developer Website at Terralogic Software.In addition, I have some other skills in information technology
                                     </p>
 
                                 </ScrollAnimation>

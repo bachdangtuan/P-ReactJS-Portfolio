@@ -68,40 +68,40 @@ export default function Navbar() {
                              }} /> */}
                     </NavLink>
                     <button className="navbar-toggler collapsed navicon justify-content-end " type="button"
-                        data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        data-toggle="collapse" data-target="#navbarSupportedContent">
                         <span className=''></span>
                         <span className=''></span>
                         <span className=''></span>
 
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarCollapse">
+                    <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <a className="navbar-brand logo-header" href="#">
                             <h5>DΛn9Tuaz©</h5>
                         </a>
 
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                             <li className='nav-item pr-3'>
-                                <NavLink to="/home" className="nav-link active">Home
+                                <NavLink to="/home" className="nav-link active" data-toggle="collapse" data-target=".navbar-collapse.show">Home
                                     <i class="fa fa-chevron-right"></i>
                                 </NavLink>
                             </li>
                             <li className='nav-item pr-3'>
-                                <NavLink to="/education" className="nav-link active">Education
+                                <NavLink to="/education" className="nav-link " data-toggle="collapse" data-target=".navbar-collapse.show">Education
                                     <i class="fa fa-chevron-right"></i>
                                 </NavLink>
                             </li>
                             <li className='nav-item pr-3'>
-                                <NavLink to="/working" className="nav-link active">Working Process
+                                <NavLink to="/working" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Working Process
                                     <i class="fa fa-chevron-right"></i>
                                 </NavLink>
                             </li>
                             <li className='nav-item pr-3'>
-                                <NavLink to="/projects" className="nav-link active">My Projects
+                                <NavLink to="/projects" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">My Projects
                                     <i class="fa fa-chevron-right"></i>
                                 </NavLink>
                             </li>
                             <li className='nav-item pr-3'>
-                                <NavLink to="/contact" className="nav-link active">Contact
+                                <NavLink to="/contact" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Contact
                                     <i class="fa fa-chevron-right"></i>
                                 </NavLink>
                             </li>

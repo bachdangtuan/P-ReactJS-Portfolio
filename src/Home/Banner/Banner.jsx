@@ -50,7 +50,7 @@ class Banner extends Component {
                                         <span className='text-primary'> TUAN</span>
                                     </h1>
                                 </Fildiv>
-                                <FadeIn transitionDuration={1000} delay={1000}>
+                                <FadeIn transitionDuration={500} delay={700}>
                                     <p>Life is a series of challenges.
                                         <br /> I don't believe I can't<br /> As for the way, I still walk</p>
                                     <DownloadCV></DownloadCV>

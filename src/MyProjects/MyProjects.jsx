@@ -31,7 +31,7 @@ class MyProjects extends Component {
         
         let dataProd = this.state.dataProject
         return dataProd.map((sp, index) => {
-            return <d iv className="col-xl-3" key={index}>
+            return <d iv className="col-xl-4 pb-4" key={index}>
                 <Card sx={{ maxWidth: 345 }} className='m-auto card__project'>
                     <CardMedia
                         component="img"
@@ -86,7 +86,7 @@ class MyProjects extends Component {
         return (
             <div>
                 <div className='container pb-5' style={{
-                    paddingTop: '150px'
+                    paddingTop: '220px'
                 }}>
                     <div className='row align-items-center'>
                         <div className='col-md-6 banner-content'>
@@ -113,7 +113,7 @@ class MyProjects extends Component {
                     </div>
                 </div>
                 <div className='bg__project pb-5'>
-                    <div className="row m-auto pt-5 ">
+                    <div className="row m-auto pt-5 container ">
                         {/* Danh Sách Dự Án */}
                         {this.renderProject()}
                     </div>
