@@ -10,6 +10,10 @@ import axios from 'axios';
 import SvgGithub from '../Home/Banner/SvgGithub';
 import ModalProject from './ModalProject';
 import ScrollAnimation from 'react-animate-on-scroll';
+
+//Connect store
+import { connect } from 'react-redux'
+
 class MyProjects extends Component {
 
     
@@ -26,18 +30,16 @@ class MyProjects extends Component {
             })
             .catch(error => console.log('test error', error));
     }
-
     renderProject = () => {
-        
-        let dataProd = this.state.dataProject
+        let dataProd = this.state.dataProject;
         return dataProd.map((sp, index) => {
-            return <d iv className="col-xl-4 pb-4" key={index}>
+            return <div className="col-xl-4 pb-4" key={index}>
                 <Card sx={{ maxWidth: 345 }} className='m-auto card__project'>
                     <CardMedia
                         component="img"
                         alt="green iguana"
                         height="140"
-                        image="https://picsum.photos/300/200"
+                        image={sp.hinhAnh}
                     />
                     <CardContent className='text-center'>
                         <Typography gutterBottom variant="h5" component="div">
@@ -66,17 +68,17 @@ class MyProjects extends Component {
                                 fontWeight: '600',
                                 fontSize: 'medium',
                                 background: 'linear-gradient(to right bottom, #896eff, #19293e  )',
-                            }} data-toggle="modal" data-target="#modelId">Info
+                            }} onClick={() =>{this.props.xemchitet(sp)}}  data-toggle="modal" data-target="#modelId">Info
                         </Button>
                         <a href='https://google.com'>
-                            <Button href='#'>
+                            <Button>
                              <SvgGithub></SvgGithub>
 
                             </Button>
                         </a>
                     </CardActions>
                 </Card>
-            </d>
+            </div>
         })
     }
 
@@ -113,18 +115,46 @@ class MyProjects extends Component {
                     </div>
                 </div>
                 <div className='bg__project pb-5'>
+                     <ScrollAnimation animateIn="fadeIn">
                     <div className="row m-auto pt-5 container ">
                         {/* Danh Sách Dự Án */}
-                        {this.renderProject()}
+                             {this.renderProject()}
                     </div>
+                        </ScrollAnimation>
                 </div>
                 <ModalProject></ModalProject>
             </div>
         );
     }
 }
+// Xay dung ham day du lieu len store
+const mapStateToProps  = (dispatch) => {
+    return {
+        xemchitet: (sp) => {
+          const spChitiet = {
+                "id": sp.id,
+                "tenSP": sp.tenSP,
+                "description": sp.description,
+                "hinhAnh": sp.hinhAnh,
+                "link": sp.link,
+                "timeStart": sp.timeStart,
+                "timeEnd": sp.timeEnd,
+                "timeRelease": sp.timeRelease,
+                "teamSize": sp.teamSize
+          }
+          const action = {
+              type: 'XEM_CHI_TIET',
+              spChitiet:spChitiet // Nội dung gửi lên reducer
+          }
+        //   console.log(action);
+          // Dùng dispatch đưua dữ liệu gửi lên reducer
+          dispatch(action);
+        }
+    }
+}
+export default connect(null,mapStateToProps)(MyProjects)
 
-export default MyProjects;
+
 
 
 
