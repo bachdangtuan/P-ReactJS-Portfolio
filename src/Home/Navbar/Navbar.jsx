@@ -59,7 +59,7 @@ export default function Navbar() {
         }}>
 
             <div className="container m-auto">
-                <Fade top>
+             
                     <NavLink to="/" className="nav-link navbar-brand ">
                     <h3>DΛn9Tuaz©</h3>
                              
@@ -107,7 +107,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                     </div>
-                </Fade>
+             
 
             </div>
         </nav>

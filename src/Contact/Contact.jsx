@@ -34,17 +34,19 @@ let data = [
         name: "My Email "
     },
 ]
+let map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1382793695248!2d106.63780211428715!3d10.800719561699465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529503326c8c7%3A0x8b0b14c5aeb77460!2zNDQsIDEyIFTDom4gSOG6o2ksIFBoxrDhu51uZyAxMywgVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1648916181371!5m2!1sen!2s"
+
 class Contact extends Component {
     renderSP = () => {
         return data.map((sp, index) => {
             return (
-                    <a href={sp.url} className='pr-4' target="_blank">
-                        <img src={sp.img} alt="" width={50} />
-                    </a>
+                <a href={sp.url} className='pr-4' target="_blank">
+                    <img src={sp.img} alt="" width={50} />
+                </a>
             )
-            
-            
-           
+
+
+
 
         })
     }
@@ -82,8 +84,8 @@ class Contact extends Component {
                         <ScrollAnimation animateIn="fadeIn" width='100'>
                             <img src={require('../img/Globalization-amico.png')} />
                             <img src={require('../img/hihi1.png')} style={
-                                {animation:'none'}
-                            }/>
+                                { animation: 'none' }
+                            } />
                             <img src={require('../img/hihi2.png')} />
                             <img src={require('../img/hihi3.png')} />
                             <img src={require('../img/hihi4.png')} />
@@ -92,7 +94,7 @@ class Contact extends Component {
                 </div>
                 {/* My blog */}
 
-                <div className='row align-items-center'>
+                <div className='row align-items-center pb-5'>
                     <div className="col-md-6 frontEnd">
                         <ScrollAnimation animateIn="fadeIn" >
                             <img src={require('../img/img6.png')} />
@@ -121,6 +123,32 @@ class Contact extends Component {
                         </ScrollAnimation>
                     </div>
                 </div>
+
+                {/* My Address */}
+                <div className='row align-items-center'>
+                    <div className='col-md-6 banner-content text-center'>
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <h1>MY
+                                <span className='text-primary'> ADDRESS</span>
+                            </h1>
+                        </ScrollAnimation>
+                        <br />
+                        <ScrollAnimation animateIn="fadeInUp" >
+                            <p>44/12 TÂN HẢI</p>
+                            <p>PHƯỜNG 12 QUẬN TÂN BÌNH </p>
+                            <p>THÀNH PHỐ HỒ CHÍ MINH</p>
+                        </ScrollAnimation>
+                    </div>
+
+                    <div className="col-md-6 frontEnd pb-5">
+                        <ScrollAnimation animateIn="fadeIn" >
+                        <iframe src={map} width={750} height={460} style={{ border: '2px solid #896eff' }} allowFullScreen loading="lazy"  title="Địa chỉ nhà của Tuấn"/>
+
+                        </ScrollAnimation>
+                    </div>
+
+                </div>
+             
             </div>
 
         );
