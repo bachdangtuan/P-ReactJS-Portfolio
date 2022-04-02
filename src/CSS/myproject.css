@@ -16,3 +16,10 @@
     transform: scale(1.3);
     transition: transform .5s;
 }
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+    background-color: rgba(178, 133, 252, 0.2) !important;
+    color: white !important;
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root p{
+    color: white !important;
+}

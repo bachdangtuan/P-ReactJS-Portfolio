@@ -8,7 +8,7 @@ export default class Mycv extends Component {
                 <div className="row m-auto w-100 loader__div "
                     style={{
                         background: '#011831',
-                        height: '150vh',
+                        height: '170vh',
                     }}
 
                 >
