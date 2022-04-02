@@ -142,9 +142,7 @@ class Contact extends Component {
 
                     <div className="col-md-6 frontEnd pb-5">
                         <ScrollAnimation animateIn="fadeIn" >
-                        <iframe src={map} width={5
-                            
-                            50} height={460} style={{ border: '2px solid #896eff' }} allowFullScreen loading="lazy"  title="Địa chỉ nhà của Tuấn"/>
+                        <iframe src={map} width={550} height={460} style={{ border: '2px solid #896eff' }} allowFullScreen loading="lazy"  title="Địa chỉ nhà của Tuấn"/>
 
                         </ScrollAnimation>
                     </div>
