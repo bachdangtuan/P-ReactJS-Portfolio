@@ -29,14 +29,15 @@ class WorkProcess extends Component {
                                 </ScrollAnimation>
                                 <br />
                             </div>
-                            <div className="col-md-6 frontEnd myproject">
+                            <div className="col-md-6 frontEnd myproject workprocess">
                                 <ScrollAnimation animateIn="fadeIn" delay={400}>
-                                    <img src={require('../img/shadow.png')} />
-                                    <img src={require('../img/banner.png')} />
-                                    <img src={require('../img/title.png')} />
-                                    <img src={require('../img/plan.png')} />
-                                    <img src={require('../img/char2.png')} />
-                                    <img src={require('../img/char1.png')} />
+                                    <img src={require('../img/khung.png')} />
+                                    <img src={require('../img/binhnuoc.png')} />
+                                    <img src={require('../img/nv1.png')} />
+                                    <img src={require('../img/ban.png')} />
+                                    <img src={require('../img/nv2.png')} />
+                                    <img src={require('../img/nv4.png')} />
+                                    <img src={require('../img/nv3.png')} />
                                 </ScrollAnimation>
                             </div>
                         </div>
@@ -54,8 +55,8 @@ class WorkProcess extends Component {
                         </AccordionSummary>
                         <AccordionDetails>
                             
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut vel, nemo magnam, repellat et adipisci est velit aspernatur a corrupti voluptate. Molestias, quasi nostrum modi officia harum impedit temporibus assumenda reiciendis repudiandae aut voluptatem debitis eos illo commodi doloribus aliquam?
+                               
                             
                         </AccordionDetails>
                     </Accordion>

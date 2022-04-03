@@ -26,7 +26,10 @@ code {
   width: 25%;
   background-color: rgba(137, 110, 255, 0.4);
 }
-
+.loader__div{
+  position: absolute;
+  width: 100%;
+}
 /* RESPONSIVE WEBSITE */
 /* Tablet */
 @media (768px <= width <= 1024px ) {
