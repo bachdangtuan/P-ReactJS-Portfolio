@@ -115,7 +115,7 @@ class MyProjects extends Component {
                     </div>
                 </div>
                 <div className='bg__project pb-5'>
-                     <ScrollAnimation animateIn="fadeIn">
+                     <ScrollAnimation animateIn="fadeIn" delay={400}>
                     <div className="row m-auto pt-5 container ">
                         {/* Danh Sách Dự Án */}
                              {this.renderProject()}
