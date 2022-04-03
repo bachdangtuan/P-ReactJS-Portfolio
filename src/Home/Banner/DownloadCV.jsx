@@ -17,7 +17,7 @@ export default class  DownloadCV extends Component {
             fontWeight: '600',
             fontSize:'medium',
             background: 'linear-gradient(to right bottom, #896eff, #19293e  )',
-          }}> 🌟 Follow me on GitHub
+          }}> 🌟 My GitHub
           <SvgGithub></SvgGithub>
          </Button>
           
