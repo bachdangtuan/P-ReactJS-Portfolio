@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(112 110 255 / 40%);
 }
+p{
+  margin: 0;
+}
 a{
   color:#6c4de3
 }

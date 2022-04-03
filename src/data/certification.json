@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "khoaHoc": "FreeCodeCamp",
+        "school": "FreeCodeCamp",
+        "hinhAnh": "https://picsum.photos/id/47/300/200"
+    },
+    {
+        "id": "2",
+        "khoaHoc": "FrontEnd ReactJS",
+        "school": "CyberSoft",
+        "hinhAnh": "https://picsum.photos/id/137/300/200"
+    },
+    {
+        "id": "3",
+        "khoaHoc": "Backend NodeJS",
+        "school": "CyberSoft",
+        "hinhAnh": "https://picsum.photos/id/437/300/200"
+    }
+]
