@@ -13,6 +13,10 @@
 .myproject img:nth-child(2){
     animation: moveing5 3s infinite;
 }
+/* Contact */
+.contactimg{
+    animation: moveing2 3s infinite;
+}
 .frontEnd{
     position: relative;
 }

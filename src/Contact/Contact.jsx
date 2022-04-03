@@ -95,7 +95,7 @@ class Contact extends Component {
                 {/* My blog */}
 
                 <div className='row align-items-center pb-5'>
-                    <div className="col-md-6 frontEnd">
+                    <div className="col-md-6 frontEnd contactimg">
                         <ScrollAnimation animateIn="fadeIn" >
                             <img src={require('../img/img6.png')} />
                         </ScrollAnimation>
