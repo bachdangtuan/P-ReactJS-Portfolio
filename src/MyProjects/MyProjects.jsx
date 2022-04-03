@@ -16,7 +16,7 @@ import { connect } from 'react-redux'
 
 class MyProjects extends Component {
 
-    
+
     state = {
         dataProject: []
     }
@@ -26,10 +26,9 @@ class MyProjects extends Component {
             .then(res => {
                 const dataProject = res.data;
                 this.setState({ dataProject });
-
             })
             .catch(error => console.log('test error', error));
-    }
+        }
     renderProject = () => {
         let dataProd = this.state.dataProject;
         return dataProd.map((sp, index) => {
@@ -68,11 +67,11 @@ class MyProjects extends Component {
                                 fontWeight: '600',
                                 fontSize: 'medium',
                                 background: 'linear-gradient(to right bottom, #896eff, #19293e  )',
-                            }} onClick={() =>{this.props.xemchitet(sp)}}  data-toggle="modal" data-target="#modelId">Info
+                            }} onClick={() => { this.props.xemchitet(sp) }} data-toggle="modal" data-target="#modelId">Info
                         </Button>
                         <a href='https://google.com'>
                             <Button>
-                             <SvgGithub></SvgGithub>
+                                <SvgGithub></SvgGithub>
 
                             </Button>
                         </a>
@@ -115,12 +114,12 @@ class MyProjects extends Component {
                     </div>
                 </div>
                 <div className='bg__project pb-5'>
-                     <ScrollAnimation animateIn="fadeIn" delay={400}>
-                    <div className="row m-auto pt-5 container ">
-                        {/* Danh Sách Dự Án */}
-                             {this.renderProject()}
-                    </div>
-                        </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeIn" delay={400}>
+                        <div className="row m-auto pt-5 container ">
+                            {/* Danh Sách Dự Án */}
+                            {this.renderProject()}
+                        </div>
+                    </ScrollAnimation>
                 </div>
                 <ModalProject></ModalProject>
             </div>
@@ -128,10 +127,10 @@ class MyProjects extends Component {
     }
 }
 // Xay dung ham day du lieu len store
-const mapStateToProps  = (dispatch) => {
+const mapStateToProps = (dispatch) => {
     return {
         xemchitet: (sp) => {
-          const spChitiet = {
+            const spChitiet = {
                 "id": sp.id,
                 "tenSP": sp.tenSP,
                 "description": sp.description,
@@ -140,26 +139,26 @@ const mapStateToProps  = (dispatch) => {
                 "timeStart": sp.timeStart,
                 "timeEnd": sp.timeEnd,
                 "timeRelease": sp.timeRelease,
-                "logoRJ":sp.logoRJ,
-                "logoredux":sp.logoredux,
-                "logobs":sp.logobs,
-                "logoex":sp.logoex,
-                "logomu":sp.logomu,
-                "logomongo":sp.logomongo,
-                "logonj":sp.logonj,
+                "logoRJ": sp.logoRJ,
+                "logoredux": sp.logoredux,
+                "logobs": sp.logobs,
+                "logoex": sp.logoex,
+                "logomu": sp.logomu,
+                "logomongo": sp.logomongo,
+                "logonj": sp.logonj,
                 "teamSize": sp.teamSize
-          }
-          const action = {
-              type: 'XEM_CHI_TIET',
-              spChitiet:spChitiet // Nội dung gửi lên reducer
-          }
-        //   console.log(action);
-          // Dùng dispatch đưua dữ liệu gửi lên reducer
-          dispatch(action);
+            }
+            const action = {
+                type: 'XEM_CHI_TIET',
+                spChitiet: spChitiet // Nội dung gửi lên reducer
+            }
+            //   console.log(action);
+            // Dùng dispatch đưua dữ liệu gửi lên reducer
+            dispatch(action);
         }
     }
 }
-export default connect(null,mapStateToProps)(MyProjects)
+export default connect(null, mapStateToProps)(MyProjects)
 
 
 
