@@ -85,10 +85,10 @@ class MyProjects extends Component {
 
     render() {
         return (
-            <div>
-                <div className='container pb-5' style={{
-                    paddingTop: '220px'
+            <div style={{
+                paddingTop: '220px'
                 }}>
+                <div className='height_ container'>
                     <div className='row align-items-center'>
                         <div className='col-md-6 banner-content'>
                             <ScrollAnimation animateIn="fadeInUp">

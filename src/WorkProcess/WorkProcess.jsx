@@ -12,10 +12,10 @@ class WorkProcess extends Component {
         return (
             <div>
                 {/* Ảnh background và chữ  */}
-                <div>
-                    <div className='container pb-5' style={{
+                    <div className='container' style={{
                         paddingTop: '220px'
                     }}>
+                    <div className='height_'>
                         <div className='row align-items-center'>
                             <div className='col-md-6 banner-content'>
                                 <ScrollAnimation animateIn="fadeInUp">
