@@ -7,13 +7,13 @@
     },
     {
         "id": "2",
-        "khoaHoc": "FrontEnd ReactJS",
+        "khoaHoc": "FrontEnd Developer",
         "school": "CyberSoft",
         "hinhAnh": "https://picsum.photos/id/137/300/200"
     },
     {
         "id": "3",
-        "khoaHoc": "Backend NodeJS",
+        "khoaHoc": "Backend Developer",
         "school": "CyberSoft",
         "hinhAnh": "https://picsum.photos/id/437/300/200"
     }

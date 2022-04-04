@@ -2,7 +2,24 @@ import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import certification from '../data/certification.json';
 import degrees from '../data/degrees.json';
+import certificationOther from '../data/certificationOther.json';
 class Education extends Component {
+
+    renderOther = () =>{
+        return certificationOther.map((sp,index)=>{
+            return <div className="col-md-4" key={index}>
+                <a class="card" style={{
+                    cursor:'pointer'
+                }} href="https://google.com">
+                    <img className="card-img-top" src={sp.hinhAnh} alt="Card image cap" />
+                    <div class="card-body">
+                        <h5>{sp.khoaHoc}</h5>
+                        <h6>-{sp.school}-</h6>
+                    </div>
+                </a>
+            </div>
+        })
+    }
 
     renderDegree = () => {
         return degrees.map((sp, index) => {
@@ -84,8 +101,8 @@ class Education extends Component {
                 {/*Degrees Received*/}
                 <div className='container banner-content text-center pb-5'>
                     <ScrollAnimation animateIn="fadeInUp">
-                        <h1>DEGREES
-                            <span className='text-primary'> RECEIVED </span>
+                        <h1>EDUCATION
+                            <span className='text-primary'> INFOR </span>
                         </h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni sequi nulla exercitationem quasi illo provident debitis voluptatibus nihil, ex id modi numquam voluptatem fuga doloribus aliquam, reiciendis perspiciatis architecto voluptate.
                         </p>
@@ -98,7 +115,7 @@ class Education extends Component {
                 {/* Certification for dev */}
                 <div className='container banner-content text-center pb-5'>
                     <ScrollAnimation animateIn="fadeInUp">
-                        <h1>CERTIFICATIONS
+                        <h1>CERTIFICATE
                             <span className='text-primary'> FOR DEV </span>
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elito!</p>
@@ -112,13 +129,13 @@ class Education extends Component {
                 {/* Certification other */}
                 <div className='container banner-content text-center pb-5'>
                     <ScrollAnimation animateIn="fadeInUp">
-                        <h1>CERTIFICATIONS
+                        <h1>CERTIFICATE
                             <span className='text-primary'> OTHER </span>
                         </h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                         <p>Lorem ipsum dolor sit.</p>
                         <div className='row'>
-                            {this.renderCert()}
+                            {this.renderOther()}
                         </div>
                     </ScrollAnimation>
                     <br />

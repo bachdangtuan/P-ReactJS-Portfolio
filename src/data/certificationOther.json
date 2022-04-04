@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "khoaHoc": "AWS for Developer",
+        "school": "Amazon Certification",
+        "hinhAnh": "./img/logo/aws.png"
+    },
+    {
+        "id": "1",
+        "khoaHoc": "Cisco for Network",
+        "school": "Cisco Certification",
+        "hinhAnh": "./img/logo/ccna.jpg"
+    }
+]
