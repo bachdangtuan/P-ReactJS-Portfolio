@@ -1,8 +1,40 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import certification from '../data/certification.json';
-
+import degrees from '../data/degrees.json';
 class Education extends Component {
+
+    renderDegree = () => {
+        return degrees.map((sp, index) => {
+            return (
+                <div className="row degrees pb-4" key={index}>
+                    <div className="col-3 p-0">
+                        <ScrollAnimation animateIn="flipInY">
+                            <div className='degrees__'>
+                                <img src={sp.hinhAnh} alt="" width={45} className="pt-2" />
+                                <p>{sp.school}</p>
+                            </div>
+                        </ScrollAnimation>
+                    </div>
+                    <div className="col-9 degrees__infor card">
+                        <div className="card-header row borderT">
+                            <div className="col-7">
+                                <h5>{sp.khoaHoc}</h5>
+                            </div>
+                            <div className="col-5 text-right">
+                                <h5>{sp.time}</h5>
+                            </div>
+                        </div>
+
+                        <div className='card-body w-100 text-left'>
+                            <p>{sp.title1}</p>
+                            <p>{sp.title2}</p>
+                        </div>
+                    </div>
+                </div>)
+        })
+    }
+
     renderCert = () => {
         return certification.map((sp, index) => {
             return <div className="col-md-4" key={index}>
@@ -40,9 +72,9 @@ class Education extends Component {
                                 </h1>
                                 <p>I am always looking and learning everywhere to improve my personal skills. The way that I teach myself is practice.
                                 </p>
-                                <img src="../img/logo/asroma.png" alt="" width={60} className="pt-2" />
-                                <img src="../img/logo/asroma.png" alt="" width={60} className="pt-2" />
-                                <img src="../img/logo/asroma.png" alt="" width={60} className="pt-2" />
+                                <img src="../img/logo/udemy.png" alt="" width={100} className="pt-2 pr-3" />
+                                <img src="../img/logo/w3shool.png" alt="" width={60} className="pt-2 pr-4" />
+                                <img src="../img/logo/freecodecamp.png" alt="" width={60} className="pt-2" />
                             </ScrollAnimation>
                             <br />
                         </div>
@@ -59,36 +91,9 @@ class Education extends Component {
                         </p>
                     </ScrollAnimation>
                     <br />
-                    <div className="row degrees pb-4">
-                        <div className="col-3 p-0">
-                            <ScrollAnimation animateIn="flipInY">
-                                <div className='degrees__'>
-                                    <img src="../img/logo/asroma.png" alt="" width={60} className="pt-2" />
-                                    <p>Fc Inter Milan</p>
-                                </div>
-                            </ScrollAnimation>
-                        </div>
-                        <div className="col-9 degrees__infor">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat porro in voluptatum, iste iusto illum! Fugiat atque provident dicta quos ad consequatur, ducimus voluptate odio id voluptatem dolor officia?
-                            Labore, maxime odio beatae debitis, consequatur ipsam quibusdam, sit vel commodi distinctio incidunt cum facere. Vitae eum nostrum nulla dicta libero. Minus distinctio sapiente suscipit quae ducimus ratione at repellat.
-                            Doloremque ut possimus, esse officiis iure explicabo praesentium neque blanditiis, autem molestias voluptatibus, cum consectetur vero vitae! Obcaecati unde totam reiciendis ipsum officiis accusamus nam. Dolores doloribus esse voluptatum provident!
-                        </div>
-                    </div>
-                    <div className="row degrees">
-                        <div className="col-3 p-0">
-                            <ScrollAnimation animateIn="flipInY">
-                                <div className='degrees__'>
-                                    <img src="../img/logo/asroma.png" alt="" width={60} className="pt-2" />
-                                    <p>Fc Inter Milan</p>
-                                </div>
-                            </ScrollAnimation>
-                        </div>
-                        <div className="col-9 degrees__infor">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat porro in voluptatum, iste iusto illum! Fugiat atque provident dicta quos ad consequatur, ducimus voluptate odio id voluptatem dolor officia?
-                            Labore, maxime odio beatae debitis, consequatur ipsam quibusdam, sit vel commodi distinctio incidunt cum facere. Vitae eum nostrum nulla dicta libero. Minus distinctio sapiente suscipit quae ducimus ratione at repellat.
-                            Doloremque ut possimus, esse officiis iure explicabo praesentium neque blanditiis, autem molestias voluptatibus, cum consectetur vero vitae! Obcaecati unde totam reiciendis ipsum officiis accusamus nam. Dolores doloribus esse voluptatum provident!
-                        </div>
-                    </div>
+                    
+                        {this.renderDegree()}
+                  
                 </div>
                 {/* Certification for dev */}
                 <div className='container banner-content text-center pb-5'>

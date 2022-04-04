@@ -3,18 +3,52 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import working from '../data/working.json';
 
 class WorkProcess extends Component {
+
+    renderWorking = () =>{
+        return working.map((sp,index) =>{
+            return  <Accordion className='h1'>
+            <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+            >
+                <h5>{sp.company}</h5>
+            </AccordionSummary>
+            <AccordionDetails>
+                <div className="row container">
+                    <div className="col-3">
+                    <img src={sp.hinhAnh} alt="" width={100} className="float-left" style={{
+                        width:'100%',
+                        height:'100%',
+                    }} />
+                    </div>
+                    <div className='container col-9' >
+                        <h5>{sp.tieude}</h5>
+                        <p>{sp.title1}</p>
+                        <h6>Position: {sp.position}</h6>
+                        <p>{sp.title2}</p>
+                    </div>
+                    <h6>Work Experience</h6>
+                    <p>{sp.exper1}</p>
+                    <p>{sp.exper2}</p>
+                    <p>{sp.exper3}</p>
+                </div>
+            </AccordionDetails>
+        </Accordion>
+        })
+    }
+
     render() {
         return (
             <div>
                 {/* Ảnh background và chữ  */}
-                    <div className='container' style={{
-                        paddingTop: '220px'
-                    }}>
+                <div className='container' style={{
+                    paddingTop: '220px'
+                }}>
                     <div className='height_'>
                         <div className='row align-items-center'>
                             <div className='col-md-6 banner-content'>
@@ -23,7 +57,7 @@ class WorkProcess extends Component {
                                         <span className='text-primary'> PROCESS </span>
                                     </h1>
                                     <p>I used to study and work in an information technology environment as a Network Engineer, Systems Administrator.<br /> <br />
-                                    I had 1 year of self-study for Developer Website at Terralogic Software.In addition, I have some other skills in information technology
+                                        I had 1 year of self-study for Developer Website at Terralogic Software.In addition, I have some other skills in information technology
                                     </p>
 
                                 </ScrollAnimation>
@@ -45,51 +79,7 @@ class WorkProcess extends Component {
                 </div>
                 {/* Accordion */}
                 <div className='container pb-5'>
-                    <Accordion className='h1'>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel1a-content"
-                            id="panel1a-header"
-                        >
-                            <h5>FPT Information Systems (2016-2017)</h5>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                            
-                               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut vel, nemo magnam, repellat et adipisci est velit aspernatur a corrupti voluptate. Molestias, quasi nostrum modi officia harum impedit temporibus assumenda reiciendis repudiandae aut voluptatem debitis eos illo commodi doloribus aliquam?
-                               
-                            
-                        </AccordionDetails>
-                    </Accordion>
-                    <Accordion className='h1'>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
-                        >
-                            <h5>J&T Express (2019-2020)</h5>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                            <Typography>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                malesuada lacus ex, sit amet blandit leo lobortis eget.
-                            </Typography>
-                        </AccordionDetails>
-                    </Accordion>
-                    <Accordion>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
-                        >
-                            <h5>Terralogic Software (2020-now)</h5>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                            <Typography>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                malesuada lacus ex, sit amet blandit leo lobortis eget.
-                            </Typography>
-                        </AccordionDetails>
-                    </Accordion>
+                        {this.renderWorking()};
                 </div>
             </div>
 

@@ -7,15 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(112 110 255 / 40%);
 }
-p{
-  margin: 0;
+
+a {
+  color: #6c4de3
 }
-a{
-  color:#6c4de3
-}
+
 a:hover {
   color: red;
 }
+
 li {
   list-style: none;
 }
@@ -24,124 +24,136 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.height_{
+
+.height_ {
   height: 750px;
 }
-.texth4{
+
+.texth4 {
   width: 25%;
   background-color: rgba(137, 110, 255, 0.4);
 }
-.loader__div{
+
+.loader__div {
   position: absolute;
   width: 100%;
 }
+
 /* RESPONSIVE WEBSITE */
 /* Tablet */
-@media (768px <= width <= 1024px ) {
-  .loader__div{
-        height: 100vh;
-  }
-}
-@media (1024px <= width <= 1440px ) {
-  .loader__div{
+@media (768px <=width <=1024px) {
+  .loader__div {
     height: 100vh;
   }
-  .loader__div img{
-    width: 25%;
 }
-}
-@media (1441px <= width <= 2560px ) {
-  .loader__div{
+
+@media (1024px <=width <=1440px) {
+  .loader__div {
     height: 100vh;
   }
-  .loader__div img{
+
+  .loader__div img {
     width: 25%;
+  }
 }
+
+@media (1441px <=width <=2560px) {
+  .loader__div {
+    height: 100vh;
+  }
+
+  .loader__div img {
+    width: 25%;
+  }
 }
 
 /* Iphone */
- /* iphone 5 */
- @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) { 
+/* iphone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {}
 
-
- }
-        
- /* iphone 6, 6s, 7, 8 */
- @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
-  .loader__div{
+/* iphone 6, 6s, 7, 8 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .loader__div {
     height: 100vh;
-    }
-  .loader__div img{
-    width: 40%;
-    }
- }
-     
- /* iphone 6+, 6s+, 7+, 8+ */
- @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .loader__div{
-    height: 100vh;
-    }
-  .loader__div img{
-    width: 40%;
-    }
-
   }
- 
- /* iphone X , XS, 11 Pro, 12 Mini */
- @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
-  .loader__div{
-    height: 100vh;
-    }
-  .loader__div img{
+
+  .loader__div img {
     width: 40%;
-    }
-
-
- }
-
- /* iphone 12, 12 Pro */
- @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
-  .loader__div{
-    height: 100vh;
-    }
-  .loader__div img{
-    width: 40%;
-    }
-  
- }
-
- /* iphone XR, 11 */
- @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
-  .loader__div{
-    height: 100vh;
-    }
-  .loader__div img{
-    width: 40%;
-    }
-
   }
-     
- /* iphone XS Max, 11 Pro Max */
- @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) { 
-  .loader__div{
+}
+
+/* iphone 6+, 6s+, 7+, 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .loader__div {
     height: 100vh;
-    }
-  .loader__div img{
+  }
+
+  .loader__div img {
     width: 40%;
-    }
+  }
 
- }
+}
 
- /* iphone 12 Pro Max */
- @media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) { 
-
-  .loader__div{
+/* iphone X , XS, 11 Pro, 12 Mini */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .loader__div {
     height: 100vh;
-    }
-  .loader__div img{
+  }
+
+  .loader__div img {
     width: 40%;
-    }
- }
+  }
+
+
+}
+
+/* iphone 12, 12 Pro */
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .loader__div {
+    height: 100vh;
+  }
+
+  .loader__div img {
+    width: 40%;
+  }
+
+}
+
+/* iphone XR, 11 */
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+  .loader__div {
+    height: 100vh;
+  }
+
+  .loader__div img {
+    width: 40%;
+  }
+
+}
+
+/* iphone XS Max, 11 Pro Max */
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
+  .loader__div {
+    height: 100vh;
+  }
+
+  .loader__div img {
+    width: 40%;
+  }
+
+}
+
+/* iphone 12 Pro Max */
+@media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) {
+
+  .loader__div {
+    height: 100vh;
+  }
+
+  .loader__div img {
+    width: 40%;
+  }
+}
 
 
 
@@ -150,112 +162,145 @@ code {
 
 
 @media (min-width: 992px) {
-  .logo-header{
-      display: none;
-   }
-  .navbar-collapse ul li a i  {
-      display: none;
-   }
-}
-  
-@media (max-width: 992px) {
-      .navbar-collapse {
-          position: fixed;
-          top: 0;
-          left: 0;
-          padding: 50px 20px;
-          width: 280px;
-          height: 100%;
-          background-color: #3e336c;
-      }
-  
-      .navbar-collapse.collapsing {
-          left: -75%;
-          transition: height 0.1ms ease;
-      }
-  
-      .navbar-collapse.show {
-          left: 0;
-          transition: left 0.3s ease-in-out;
-      }
-      .navbar-collapse ul li a  {
-          color: aliceblue;
-      }
-      .navbar-collapse ul li::after {
-          content: "";
-          display: block;
-          width: 100%;
-          background-color: rgb(255 255 255 / 17%);
-          height: 2px;
-      }
-  
-      .navbar-toggler.collapsed ~ .navbar-collapse {
-          transition: left 0s ease-in-out;
-      }
-      .navbar-collapse ul li a i {
-          top: 0px;
-          left: auto;
-          background-color: white;
-          color: #6c4de3;
-          height: 30px;
-          line-height: 30px;
-          right: 0;
-          text-align: center;
-          width: 30px;
-          z-index: 3;
-          float: right;
-          font-size: 20px;
-          margin: auto;
-      }
-      .move-box{
-        width: 90%;
-        margin: auto;
-        margin-top: 50px;
-       }
-       .banner-content {
-         margin: auto;
-         text-align: center;
-       }
-       .banner-content h2{
-          font-size: 20px;
-       }
-       .banner-content h1{
-        font-size: 30px;
-       }
-       .navbar-brand img{
-         height: 45px !important;
-         /* padding-left: 10px; */
-       }
-       .nav-link{
-         padding: 0px;
-         margin-bottom: 15px;
-       }
-       .css-rda88r{
-        width: 90%;
-        margin: auto;
-       }
-       .css-zs6oxa{
-        width: 30% !important;
-        font-size: 12px !important;
-        padding: 6px 7px !important;
-        margin: 6px 5px !important;
-       } 
-       .css-1tx00xh.Mui-selected{
-         width: 20%;
-         font-size: 10px;
-       }
-       .texth4{
-         width: 65% !important;
-         font-size: 30px;
-       }
-
-       .frontEnd{
-        width: 95%;
-        margin: auto;
-       }
-       .imgContact{
-        width: 95%;
-        margin: auto;
-       }
-
+  .logo-header {
+    display: none;
   }
+
+  .navbar-collapse ul li a i {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 50px 20px;
+    width: 280px;
+    height: 100%;
+    background-color: #3e336c;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0.1ms ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .navbar-collapse ul li a {
+    color: aliceblue;
+  }
+
+  .navbar-collapse ul li::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: rgb(255 255 255 / 17%);
+    height: 2px;
+  }
+
+  .navbar-toggler.collapsed~.navbar-collapse {
+    transition: left 0s ease-in-out;
+  }
+
+  .navbar-collapse ul li a i {
+    top: 0px;
+    left: auto;
+    background-color: white;
+    color: #6c4de3;
+    height: 30px;
+    line-height: 30px;
+    right: 0;
+    text-align: center;
+    width: 30px;
+    z-index: 3;
+    float: right;
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .move-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .banner-content {
+    margin: auto;
+    text-align: center;
+  }
+
+  .banner-content h2 {
+    font-size: 20px;
+  }
+
+  .banner-content h1 {
+    font-size: 30px;
+  }
+
+  .navbar-brand img {
+    height: 45px !important;
+    /* padding-left: 10px; */
+  }
+
+  .nav-link {
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+
+  .css-rda88r {
+    width: 90%;
+    margin: auto;
+  }
+
+  .css-zs6oxa {
+    width: 30% !important;
+    font-size: 12px !important;
+    padding: 6px 7px !important;
+    margin: 6px 5px !important;
+  }
+
+  .css-1tx00xh.Mui-selected {
+    width: 20%;
+    font-size: 10px;
+  }
+
+  .texth4 {
+    width: 65% !important;
+    font-size: 30px;
+  }
+
+  .frontEnd {
+    width: 95%;
+    margin: auto;
+  }
+
+  .imgContact {
+    width: 95%;
+    margin: auto;
+  }
+
+  .degrees .col-3 {
+    display: none;
+  }
+
+  .borderT {
+    padding: 5px;
+  }
+
+  .borderT h5 {
+    font-size: 14px;
+    margin: 0%;
+  }
+  .degrees .card-body{
+    padding: 15px;
+  }
+  .degrees .card-body p{
+    font-size: 15px;
+  }
+}

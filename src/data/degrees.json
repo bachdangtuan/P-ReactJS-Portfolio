@@ -1,20 +1,29 @@
 [
     {
         "id": "1",
-        "khoaHoc": "FreeCodeCamp",
-        "school": "FreeCodeCamp",
-        "hinhAnh": "https://picsum.photos/id/47/300/200"
+        "khoaHoc": "InterMilan Academy Football",
+        "school": "Inter Milan",
+        "hinhAnh": "../img/logo/asroma.png",
+        "time": "10/2020 - 11/2022",
+        "title1": "Juventus Football Club, colloquially known as Juventus and Juve, is a professional football club based in Turin, Piedmont, Italy",
+        "title2": "Nicknames: Fidanzata d'Italia, Goeba, I bianconeri, Signora Omicidi, Vecchia Signora, Zebre"
     },
     {
         "id": "2",
-        "khoaHoc": "FrontEnd ReactJS",
-        "school": "CyberSoft",
-        "hinhAnh": "https://picsum.photos/id/137/300/200"
+        "khoaHoc": "FrontEnd ReactJS Academy ",
+        "school": "Juventus",
+        "time": "10/2020 - 11/2022",
+        "hinhAnh": "../img/logo/juventus.png",
+        "title1": "Juventus Football Club, colloquially known as Juventus and Juve, is a professional football club based in Turin, Piedmont, Italy",
+        "title2": "Nicknames: Fidanzata d'Italia, Goeba, I bianconeri, Signora Omicidi, Vecchia Signora, Zebre"
     },
     {
         "id": "3",
-        "khoaHoc": "Backend NodeJS",
-        "school": "CyberSoft",
-        "hinhAnh": "https://picsum.photos/id/437/300/200"
+        "khoaHoc": "Backend NodeJS Academy",
+        "school": "Real Madrid",
+        "time": "10/1820 - 14/2022",
+        "hinhAnh": "../img/logo/real.png",
+        "title1": "Juventus Football Club, colloquially known as Juventus and Juve, is a professional football club based in Turin, Piedmont, Italy",
+        "title2": "Nicknames: Fidanzata d'Italia, Goeba, I bianconeri, Signora Omicidi, Vecchia Signora, Zebre"
     }
 ]

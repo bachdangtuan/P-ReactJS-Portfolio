@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "company": "FPT Information Systems (2016-2017)",
+        "tieude": "FPT Information Systems",
+        "hinhAnh": "./img/logo/fis.png",
+        "time": "10/2020 - 11/2022",
+        "position": "Helpdesk/Support",
+        "title1": "FPT Information System Company (FPT Information System - FPT IS) is a leading system integrator and solution provider in Vietnam and the region.",
+        "title2": "I perform the tasks assigned by the team",
+        "exper1": "Participating in the implementation of the Quang Ninh province postal network infrastructure project.",
+        "exper2": "Configure Switch/Router Cisco, Firewall Fortigate. Hardware repair, printer ink refill, printer ink delivery, network cable press. Shipper delivery hardware",
+        "exper3": "Follow the company's 'IT Support' onsite contract."
+    },
+    {
+        "id": "2",
+        "company": "J&T Express (2019-2020)",
+        "tieude": "J&T Express Vietnam",
+        "hinhAnh": "./img/logo/jt.png",
+        "time": "10/2020 - 11/2022",
+        "position": "Network/Systems",
+        "title1": "J&T Express is a fast delivery brand based on the development of technology and the Internet.",
+        "title2": "Design network infrastructure, deploy the system at the new office",
+        "exper1": "Design network infrastructure with 10 Cisco 9200 switches, 2 Fortigate 301E firewalls, 1 Synology NAS, 10 Wifi Unifi.",
+        "exper2": "Deloy Environment virtualization system promox Ubuntu for Windows Server/ LDAP Authentication",
+        "exper3": "Deploy Zabbix Monitor Service"
+    },
+    {
+        "id": "3",
+        "company": "Terralogic Software (2020-now)",
+        "tieude": "Terralogic Software",
+        "hinhAnh": "./img/logo/terralogic.svg",
+        "time": "10/2020 - 11/2022",
+        "title1": "Juventus Football Club, colloquially known as Juventus and Juve, is a professional football club based in Turin, Piedmont, Italy",
+        "title2": "Nicknames: Fidanzata d'Italia, Goeba, I bianconeri, Signora Omicidi, Vecchia Signora, Zebre"
+    }
+]
