@@ -25,25 +25,29 @@
 
 /* Certification */
 .certification__ {
-    position: absolute;
     width: 100%;
-    padding: 5px;
     color: white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background: rgba(137, 110, 255, 0.6);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(137, 110, 255, 0.3);
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
+.card{
+    box-shadow:0px 1px 9px 2px rgb(0 0 0 / 70%)
+}
+.card-img-top{
+    border-top-right-radius: 20px;
+}
 .certification__ h5 {
     margin: 0;
 }
 
 .certification__ h6 {
-    color: rgba(59, 58, 58);
+    color: rgba(59, 58, 58, 1);
     margin: 0;
 }
 

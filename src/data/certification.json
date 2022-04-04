@@ -3,16 +3,22 @@
         "id": "1",
         "khoaHoc": "FreeCodeCamp",
         "school": "FreeCodeCamp",
-        "hinhAnh": "https://picsum.photos/id/47/300/200"
+        "hinhAnh": "./img/logo/cert-fcc.png"
     },
     {
         "id": "2",
-        "khoaHoc": "FrontEnd Developer",
-        "school": "CyberSoft",
-        "hinhAnh": "https://picsum.photos/id/137/300/200"
+        "khoaHoc": "FreeCodeCamp",
+        "school": "FreeCodeCamp",
+        "hinhAnh": "./img/logo/cert-fcc.png"
     },
     {
         "id": "3",
+        "khoaHoc": "Frontend Developer",
+        "school": "CyberSoft",
+        "hinhAnh": "./img/logo/cert-fcc.png"
+    },
+    {
+        "id": "4",
         "khoaHoc": "Backend Developer",
         "school": "CyberSoft",
         "hinhAnh": "https://picsum.photos/id/437/300/200"

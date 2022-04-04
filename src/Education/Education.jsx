@@ -54,9 +54,9 @@ class Education extends Component {
 
     renderCert = () => {
         return certification.map((sp, index) => {
-            return <div className="col-md-4" key={index}>
+            return <div className="col-md-4 pb-4" key={index}>
                 <div class="card">
-                    <img className="card-img-top" src={sp.hinhAnh} alt="Card image cap" />
+                    <img className="card-img-top " src={sp.hinhAnh} alt="Card image cap" />
                     <div class="card-body certification__">
                         <h5>{sp.khoaHoc}</h5>
                         <h6>-{sp.school}-</h6>
