@@ -16,14 +16,5 @@
         "hinhAnh": "../img/logo/juventus.png",
         "title1": "Web Programming Teaching Center",
         "title2": "Learn knowledge of front-end programming"
-    },
-    {
-        "id": "3",
-        "khoaHoc": "CyberSoft Back-End",
-        "school": "Cybersoft",
-        "time": "2021",
-        "hinhAnh": "../img/logo/real.png",
-        "title1": "Web Programming Teaching Center",
-        "title2": "Learn knowledge of back-end programming"
     }
 ]
