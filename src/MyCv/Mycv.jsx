@@ -216,7 +216,7 @@ export default function Mycv() {
             <div className="row m-auto w-100 loader__div "
                 style={{
                     background: '#011831',
-                    height: '200vh',
+                    height: 'auto',
                     zoom: '75%'
                 }} >
                 <div className="container-fluid overcover position-relative mh-100 w-100">
