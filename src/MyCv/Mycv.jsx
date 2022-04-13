@@ -239,12 +239,12 @@ export default function Mycv() {
                                             I'm so excited to make a website.
                                         </p>
                                         <div className="btn-ro row no-margin">
-                                            <ul className="btn-link">
+                                            <ul className="btn-link buttonDownload">
                                                 <li>
                                                     <a href><i className="fas fa-paper-plane" /> Hire Me</a>
                                                 </li>
                                                 <li>
-                                                    <a href=''><i className="fas fa-cloud-download-alt" /> Download Resume</a>
+                                                    <a href='https://drive.google.com/u/0/uc?id=1huB0rgaWOWmQtZoz85nDrx7DOYxGRuTH&export=download' download><i className="fas fa-cloud-download-alt" > </i>  Download Resume</a>
                                                 </li>
                                             </ul>
                                         </div>

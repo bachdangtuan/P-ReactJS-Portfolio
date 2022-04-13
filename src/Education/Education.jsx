@@ -3,6 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import certification from '../data/certification.json';
 import degrees from '../data/degrees.json';
 import certificationOther from '../data/certificationOther.json';
+
 class Education extends Component {
 
     renderOther = () =>{

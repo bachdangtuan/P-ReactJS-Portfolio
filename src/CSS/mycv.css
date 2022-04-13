@@ -1,6 +1,19 @@
 a {
   text-decoration: none !important;
 }
+
+.buttonDownload li {
+  border: 1px solid #816ae9 !important;
+  color: #896efe !important;
+}
+.buttonDownload li i {
+  color: #896efe !important;
+}
+.buttonDownload li a {
+  color: #1f2471  !important;
+  font-weight: bold;
+}
+
 .center {
   text-align: center;
 }
