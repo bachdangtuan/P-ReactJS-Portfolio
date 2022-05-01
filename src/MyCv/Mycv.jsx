@@ -219,7 +219,7 @@ export default function Mycv() {
                                     <h2 className="rit-titl"><i className="far fa-user" /> Profile</h2>
                                     <div className="about">
                                         <p>My name is Dang Tuan. I have a passion for computers and information technology.
-                                            I'm so excited to make a website.
+                                            I'm so excited to make a website application.
                                         </p>
                                         <div className="btn-ro row no-margin">
                                             <ul className="btn-link buttonDownload">
