@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: red !important;
 }
 
 li {

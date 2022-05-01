@@ -21,44 +21,27 @@ export default function Mycv() {
     // State cột bên right
     const [dataWork, setdataWork] = useState([
         {
-            "object": "Junior Software Developer",
-            "year": "2008-2011",
-            "diadiem": "Microsoft / United States",
-            "noidung1": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "noidung2": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "noidung3": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "object": "Thám Tử Gia Khánh - Website introducing detective services",
+            "year": "2021",
+            "diadiem": "https://thamtugiakhanh.com/",
+            "noidung1": " TeamSize: 1 ",
+            "noidung2": " Technology Using: ReactJS, HTML, Bootstrap 4.6, Nginx, Ubuntu 18.04",
+            "noidung3": " Mission: Build layout, design interface, deploy server",
         },
         {
-            "object": "Junior Software Developer",
-            "year": "2008-2011",
-            "diadiem": "Microsoft / United States",
-            "noidung1": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "noidung2": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "noidung3": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        },
-        {
-            "object": "Junior Software Developer",
-            "year": "2008-2011",
-            "diadiem": "Microsoft / United States",
-            "noidung1": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "noidung2": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "noidung3": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "object": "My-Portfolio",
+            "year": "2022",
+            "diadiem": "https://bachdangtuan.vercel.app/",
+            "noidung1": " TeamSize: 1 ",
+            "noidung2": " Technology Using: ReactJS, Redux, React Router, Bootstrap, HTML",
+            "noidung3": " Mission: Build layout, design interface, deploy vercel app",
         },
     ])
     // State education
     const [dataEdu, setdataEdu] = useState([
         {
-            "object": "Junior Software Developer",
-            "year": "2008-2011",
-        },
-        {
-            "object": "Junior Software Developer",
-            "year": "2008-2011",
-
-        },
-        {
-            "object": "Junior Software Developer",
-            "year": "2008-2011",
+            "object": " CyberSoft Academy",
+            "year": "12/2021 - 2022",
         },
     ])
     // State Skill
@@ -68,12 +51,12 @@ export default function Mycv() {
             "width": "89%",
         },
         {
-            "object": "Logic",
-            "width": "70%",
+            "object": "Try Hard",
+            "width": "80%",
 
         },
         {
-            "object": "TryHard",
+            "object": "Research",
             "width": "80%",
         },
         {
@@ -88,7 +71,7 @@ export default function Mycv() {
         return dataWork.map((sp, index) => {
             return <div className="work-exp">
                 <h6>{sp.object} <span>{sp.year}</span></h6>
-                <i>{sp.diadiem}</i>
+                <a href={sp.diadiem} target="_blank" >{sp.diadiem}</a>
                 <ul key={index}>
                     <li><i className="far fa-hand-point-right" /> {sp.noidung1} </li>
                     <li><i className="far fa-hand-point-right" /> {sp.noidung2} </li>
@@ -240,9 +223,9 @@ export default function Mycv() {
                                         </p>
                                         <div className="btn-ro row no-margin">
                                             <ul className="btn-link buttonDownload">
-                                                <li>
+                                                {/* <li>
                                                     <a href><i className="fas fa-paper-plane" /> Hire Me</a>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <a href='https://drive.google.com/u/0/uc?id=1huB0rgaWOWmQtZoz85nDrx7DOYxGRuTH&export=download' download><i className="fas fa-cloud-download-alt" > </i>  Download Resume</a>
                                                 </li>
