@@ -147,7 +147,7 @@ export default function Mycv() {
             <div className="profile-info">
                 <img src={dataCV.hinhAnh} alt />
                 <h3>Bach Dang Tuan</h3>
-                <span>Website Developer</span>
+                <span>Website Programmer</span>
             </div>
             <h4 className="ltitle">Contact</h4>
             <div className="contact-box pb0">
@@ -214,7 +214,7 @@ export default function Mycv() {
                                 <div className="rit-cover">
                                     <div className="hotkey">
                                         <h1 className>Bach Dang Tuan </h1>
-                                        <small>Website Developer</small>
+                                        <small>Website Programmer</small>
                                     </div>
                                     <h2 className="rit-titl"><i className="far fa-user" /> Profile</h2>
                                     <div className="about">
