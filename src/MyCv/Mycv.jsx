@@ -22,7 +22,7 @@ export default function Mycv() {
     const [dataWork, setdataWork] = useState([
         {
             "object": "Thám Tử Gia Khánh - Website introducing detective services",
-            "year": "2021",
+            "year": "12/2021",
             "diadiem": "https://thamtugiakhanh.com/",
             "noidung1": " TeamSize: 1 ",
             "noidung2": " Technology Using: ReactJS, HTML, Bootstrap 4.6, Nginx, Ubuntu 18.04",
@@ -30,7 +30,7 @@ export default function Mycv() {
         },
         {
             "object": "My-Portfolio",
-            "year": "2022",
+            "year": "12/2021 - now",
             "diadiem": "https://bachdangtuan.vercel.app/",
             "noidung1": " TeamSize: 1 ",
             "noidung2": " Technology Using: ReactJS, Redux, React Router, Bootstrap, HTML",
