@@ -178,7 +178,7 @@ export default function Mycv() {
 
             {social()}
 
-            <h4 className="ltitle">Referencess</h4>
+            {/* <h4 className="ltitle">Referencess</h4>
             <div className="refer-cov">
                 <b>Jonney Smith</b>
                 <p>CEO Casinocarol</p>
@@ -188,7 +188,7 @@ export default function Mycv() {
                 <b>Jonney Smith</b>
                 <p>System Administrator</p>
                 <span>p +00 890 1232 8767</span>
-            </div>
+            </div> */}
             <h4 className="ltitle">Hobbies</h4>
             {hobie()}
         </div>
@@ -226,9 +226,9 @@ export default function Mycv() {
                                                 {/* <li>
                                                     <a href><i className="fas fa-paper-plane" /> Hire Me</a>
                                                 </li> */}
-                                                <li>
+                                                {/* <li>
                                                     <a href='https://drive.google.com/u/0/uc?id=1huB0rgaWOWmQtZoz85nDrx7DOYxGRuTH&export=download' download><i className="fas fa-cloud-download-alt" > </i>  Download Resume</a>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </div>
                                     </div>
